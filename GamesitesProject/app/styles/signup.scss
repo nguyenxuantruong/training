@@ -1,0 +1,817 @@
+@import "compass_twitter_bootstrap";
+
+@font-face {
+ font-family: 'tunga';
+ src: url('../font/tunga.ttf');
+}
+font-face {
+ font-family: 'tunga';
+ src: url('../font/tungb.ttf');
+}
+@font-face {
+ font-family: 'cooperblack'; 
+ src: url('../font/CooperBlackStd.otf');
+}
+@font-face {
+ font-family: 'ebrima'; 
+ src: url('../font/ebrimabd.ttf');
+}
+
+form {
+      margin: 0;
+}
+a {
+      color: white;
+}
+a:hover{
+      color: white;
+}
+
+li {
+      list-style: none;
+      float: left;
+}
+
+body {
+      background-position-x:"50%";
+      background: url(../images/signup-bg.png) no-repeat;
+}
+
+.error {
+      color: red;
+      display: inline;
+      padding-left: 20px;
+}
+
+.container {
+      width: 1024px;
+      background: url(../images/signup-character.png) 640px 100px  no-repeat;
+      font-family: "tunga";
+}
+
+
+/* css for navbar */
+#nav {
+      height: 51px;
+      background: #878d8e;
+      border-radius: 10px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      -moz-font-size: 14px;
+}
+
+#nav .notificationNumber {
+      background: red;
+      border: 1px solid red;
+      padding: 0 4px;
+      border-radius: 5px;
+      height: 16px;
+}
+
+#nav .navText div:first-child {
+      float:right;
+      padding-right:10px;
+}
+
+#nav .navText div:last-child {
+      float:right;
+      display:inline;
+      margin-right:40px;
+}
+
+#nav .navText img{
+      margin-top: 5px;
+}
+
+#nav .navText:nth-child(2) {
+      margin-top: 18px;
+      color: white;
+}
+
+#nav .navText:last-child {
+      cursor:pointer;
+}
+
+#nav .notification {
+      float: left;
+}
+
+#nav .notification span {
+      color: white;
+      line-height: 15px;
+      height: 15px;
+      font-weight: bold;
+      background: red;
+      border-radius: 6px;
+      padding: 5px 7px 0 7px;
+      display: inline-block;
+      font-size: 21px;
+      margin-left: 5px;
+}
+
+#nav .siteAuction a{
+      margin-left: 45px;
+
+}
+
+#nav img {
+      margin-right: 10px;
+}
+
+#nav .avatar {
+      position: relative;
+      margin-top: -20px;
+      float: right;
+}
+
+#nav .dropdown {
+      float: right;
+}
+
+#nav .caret {
+      border-top: 10px solid white;
+      border-right: 7px solid transparent;
+      border-left: 7px solid transparent;
+      margin-top: 6px;
+      margin-left: 5px;
+}
+
+hr {
+      margin: 10px 0 5px 0;
+      color: #5bb9ff;
+      opacity: 0.35;
+      border: 1px solid #5bb9ff;
+      width: 98%;
+      margin-left: 1%;
+}
+
+/* css for featured game */
+#featureGame {
+      padding-left: 20px;
+      margin-top: 36px;
+      margin-bottom: 10px;
+}
+
+#featureGame .title {      
+      margin: -2px 17px 10px;
+      background: url(../images/featuredgame.png) no-repeat;
+      width: 200px;
+      height: 23px;
+}
+
+#featureGame .title span{
+      font-size: 30px;
+}
+
+
+#listFG .listFG {
+      border: 1px solid #80d6e8;
+      border-radius: 5px;
+      padding: 7px;
+      background: #c1c4c2;
+      background-color: rgba(131, 154, 180, 0.85);
+      margin-bottom: 2px;
+      width: 200px;
+      margin-left: 10px;
+
+}
+
+#listFG .listFG img{
+      display: block; 
+      margin-left: auto; 
+      margin-right: auto; 
+      width: 164px;
+      height: 91px;
+      border: 1px solid gray;
+      background: white;
+}
+
+#listFG .listFG button{
+      margin-top: 10px;
+      background: -webkit-linear-gradient(top, #91e477, #358641);
+      color: white;
+      font-family: "mariadpro";
+      border: 2px solid #00ccff;
+      border-radius: 5px;
+      font-weight: normal;
+      margin-right: 0px;
+      text-transform:uppercase;
+      font-size: 11px;
+}
+
+.listFG:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+}
+
+#listFG .listFG button span{
+      font-size: 15px;
+}
+
+#listFG .listFG .play{
+      float: left;
+}
+
+#listFG .listFG .learn{
+      float: right;
+}
+
+/* sign up container */
+.signUpContainer {
+      border: 1px solid #3ac2fa;
+      // padding: 7px;
+      border-radius: 8px;
+      margin-left: -10px !important;
+      margin-top: 160px;
+      background: transparent;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-weight: bold;
+
+
+}
+.signUpContainer h2 {
+      font-size: 38px;
+      color: white;
+      padding-left: 18px;
+      margin-top: 13px;
+      // letter-spacing: -2px;
+}
+
+.signUpContainer .singUpHeader {
+      background: #cccccc;
+}
+
+.signUpContainer .temp{
+      border: 7px solid #cccccc;
+      border-radius: 8px;
+}
+
+.signUpContainer .singUpHeader p.span4 {
+      color: #3c3c3c;
+      font-size: 13px;
+      margin-top: 24px;
+      padding-left: 43px;
+      letter-spacing: -1px;
+}
+
+.signUpContainer .singUpHeader a.span2 {
+      color: #23bbee;
+      font-size: 16px;
+      margin-top: 25px;
+      padding-left: 7px;
+      letter-spacing: -1px;
+}
+
+.signUpContainer .signUp {
+      border: 1px solid #3ac2fa;
+      background: rgba(238,242,240, 0.60);
+
+}
+
+.signUpContainer .signUp p, .signUpContainer .signUp label {
+      margin-top: 16px;
+      margin-left: 17px;
+      font-size: 16px;
+      font-weight: bold;
+}
+
+.signUpContainer .signUp .social button {
+      width: 170px;
+      height: 30px;
+      border: none;
+}
+
+.signUpContainer .signUp .social button:first-child{
+      background: url(../images/signup-social.png);
+      margin-left: 17px;
+}
+
+.signUpContainer .signUp .social button:nth-child(2) {
+      background: url(../images/signup-social.png) 363px ;
+      margin-left: 11px;
+}
+.signUpContainer .signUp .social button:nth-child(3) {
+      background: url(../images/signup-social.png) 170px ;
+      margin-left: 20px;
+}
+
+.signUpContainer .signUp input {
+      height: 27px;
+      width: 252px;
+      margin-left: 10px;
+      margin-top: -4px;
+}
+
+.signUpContainer .signUp label.birthday {
+      margin-top: 7px;
+      margin-left: 21px;
+}
+
+.signUpContainer .signUp button.dropdown-toggle {
+      width: 105px;
+      height: 40px;
+      font-size: 21px;
+      color: white;
+      font-family: "mariadpro";
+      border-right: 2px solid gray;
+      background: -webkit-linear-gradient(left, #b8b8b8, #a2a2a2);
+      font-weight: bold;
+}
+
+.signUpContainer .signUp .caret {
+      border-top: 8px solid white;
+      border-right: 8px solid transparent;
+      border-left: 8px solid transparent;
+      margin-left: -8px;
+      margin-top: 4px;
+      float: right;
+}
+
+.bootstrap-select {
+      float: left;
+      margin-left: 17px;
+      margin-right: -15px;
+}
+
+.first .pull-left{
+      margin-left: -34px !important;
+      width: 83px !important;
+}
+
+.signUpContainer .signUp .pull-left {
+      margin-left: -9px;
+      width: 65px;
+      border-right: 1px solid #9e9e9e;
+}
+
+
+
+.signUpContainer .signUp a.why {
+      margin-left: 17px;
+      color: black;
+}
+
+.signUpContainer .signUp button.submit {
+      width: 236px;
+      height: 49px;
+      border: 1px solid #42b1ce;
+      border-radius: 5px;
+      background: -webkit-linear-gradient(top, #52c441, #339a23);
+      color: white;
+      font-weight: bold;
+      font-size: 27px;
+      margin-top: 13px;
+      margin-left: 17px;
+}
+
+
+// FS online
+.singUpHeaderS2  {
+    width: 586px;
+    margin-left: -7px;
+    border: 1px solid #3ac2fa;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: none;
+    background: #cccccc;
+}
+
+.signUp h4 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.signUp label.s2, input.s2 {
+    margin-left: 23px !important;
+}
+
+.signUp label.first {
+    margin-top: 26px !important;
+}
+.signUp label.second {
+    margin-top: 8px !important;
+}
+
+.signUp label.third {
+    margin-top: 3px !important;
+    // margin-bottom: -6px;
+}
+
+.signUpContainer .submitS2 {
+    margin-top: 65px !important;
+    margin-right: 6px !important;
+    float: right !important;
+    width: 205px !important;
+    height: 46px !important;
+    margin-bottom: 6px !important;
+    margin-right: 12px !important;
+    background: -webkit-linear-gradient(top, #4fc33d, #39ad27) !important;
+}
+
+/* screen 3 */
+.signUpContainer .boy, .signUpContainer .girl {
+    width: 233px;
+    height: 331px;
+    // border: 1px solid #45c9f9;
+    border-radius: 8px;
+}
+.signUpContainer .boy:hover, .signUpContainer .girl:hover {
+    cursor: pointer;
+}
+
+.signUpContainer .girl {
+  background: url(../images/girl-bg.png);
+  margin: 15px 20px auto 20px !important;
+}
+
+.signUpContainer .boy {
+  background: url(../images/boy-bg.png);
+  margin: 15px 20px auto auto;
+  float: right;
+}
+
+.signUpContainer .boy img{
+    margin-left: 67px;
+    margin-top: 18px;
+}
+
+.signUpContainer .girl img {
+    margin-left: 40px;
+    margin-top: 13px;
+    
+}
+
+.signUpContainer .btnS3 {
+    width: 182px;
+    height: 37px;
+    border: 1px solid #41b6d6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+}
+
+.signUpContainer .backS3, .signUpContainer .backS4 {
+    background: -webkit-linear-gradient(top, #6f6f6f, #838383);
+    margin: 10px auto 10px 22px !important;
+}
+.signUpContainer .nextS3, .signUpContainer .nextS4 {
+    background: -webkit-linear-gradient(top, #4fc33d, #39ae28);
+    margin: 10px 15px auto auto;
+    float: right;
+}
+
+/* screen 4 */
+.signUpContainer h4.usernameS4 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 24;
+    margin-top: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+/* css for more game */
+#moreGame {
+      position: relative;
+      // border: 2px solid #21c9eb;
+      margin-top: 17px;
+      // background-color: rgba(138, 168, 200, 0.85);
+      border-radius: 8px;
+}
+
+#moreGame .moreImg {
+      position: absolute;
+      top: -42px;
+      left: 37px;
+}
+
+#moreGame .title {
+      position: absolute;
+      left: 20px;
+      top: -5px;
+      font-size: 20px;      
+      background: url(../images/signup-moregame.png) no-repeat;
+      width: 191px;
+      height: 54px;
+}
+
+#moreGame .title span{
+      font-size: 30px;
+
+}
+
+#listMoreGame {
+      display: block;
+      margin: 42px 100px 0px 120px;
+}
+#listMoreGame .ulListGame {
+      margin-bottom: -2px;
+}
+#listMoreGame ul li {
+      width: 182px;
+      height: 150px;
+      margin-left: 2px;
+}
+
+#listMoreGame ul li div.logo{
+      background-color: rgba(0, 0, 0, 0.48);
+      list-style: none;
+      float: left;
+      border-radius: 8px;
+      width: 178px;
+      height: 95px;
+}
+
+#listMoreGame img {
+      margin-top: 10px;
+      margin-left: 4px;
+      width: 169px;
+      height: 73px;
+
+}
+
+#listMoreGame .descriptionMoreGame {
+      clear: both;
+      font-family: Ebrima;
+      font-size: 10px;
+      color: black;
+      text-transform: uppercase;
+      font-weight: bold;
+}
+
+#listMoreGame .descriptionMoreGame .name {
+      border-bottom: 1px solid #5e7287;
+      font-variant: small-caps;
+      text-transform: capitalize;     
+      font-size: 11px;
+      font-weight: bold;
+      margin-bottom: 3px;
+}
+
+#listMoreGame .descriptionMoreGame span {
+      font-size: 13px;
+}
+
+#listMoreGame .descriptionMoreGame .name img {
+      width: 40%;
+      height: 40%;
+      float: right;
+      margin-top: 3px;
+      margin-right: 10px;
+}
+
+#listMoreGame .descriptionMoreGame .desc {
+      clear: both;
+      text-transform: uppercase;
+      font-size: 7px;
+      line-height: 7px;
+      font-weight: normal;
+}
+
+#listMoreGame .descriptionMoreGame a {
+      color: #57a6ca;
+}
+
+#listMoreGame .descriptionMoreGame a span {
+      font-weight: bold;
+      font-size: 8px;
+      color: #2694AA;
+}
+
+/* css for footer */
+#footer {
+      border: 2px solid #00ccff;
+      border-radius: 8px;
+      margin-top: 40px;
+      background: #6c6c6c;
+      height: 84px;
+}
+
+#footer > div {
+      margin-top: 13px;
+}
+
+#funLeft {
+      margin: 10px 0px auto 10px;
+      width: 153px;
+}
+
+#footer .linkFooter {
+      margin-left: 5px;
+      margin-right: auto;
+      margin-top: 10px;
+      line-height: 13px;
+      font-size: 16px;
+      width: 740px;
+      font-weight: bold;
+}
+
+#footer .linkFooter ul {
+      margin-left: 1px;
+}
+
+#footer .linkFooter ul li {
+      display: inline-block;
+      padding: 0 22px;
+      border-right: 1px solid white;  
+      margin-top: 4px;   
+}
+
+
+
+#footer .linkFooter ul li:first-child {
+      padding-left: 0px;
+}
+
+#footer .linkFooter ul li:last-child {
+      border: none;
+}
+
+#footer .linkFooter .infor {
+      margin-top: 12px;
+      font-weight: normal;
+}
+#footer .linkFooter .infor p:last-child {
+      margin-top: -2px;
+}
+
+#funRight {
+      float: right;
+      width: 90px;
+}
+
+#funRight img{
+      float: right;
+      margin-right: 20px;
+}
+#funRight img:first-child{
+      margin-right: 40px;
+}
+
+#footer .infor p{
+      text-align: center;
+      color: #61adcf;
+}
+
+/* avartar */
+.avatarDefault {
+      position: relative;
+      top: 26px;
+      left: 377px;
+}
+
+
+/* Targeting only Firefox with CSS */
+@-moz-document url-prefix() {
+    #footer .linkFooter ul li {
+        padding: 0 15px;
+    }
+
+    #nav .siteAuction a{
+            margin-left: 35px;
+      }
+      #nav .avatar {
+            position: relative;
+            left: -70px;
+      }
+
+      #nav .dropdown {
+            top: 20px;
+            left: 53px;
+      }
+}
+
+
+/* IE9, IE10 */
+@media screen and (min-width:0\0) {
+      #nav .siteAuction a {
+          margin-left: 25px;
+      }
+
+      #footer .linkFooter ul li {
+            padding: 0 15px;
+      }
+
+      #nav .notification span {
+            padding-bottom: 4px;
+      }
+
+      #nav .notification {
+            margin-top: -3px;
+      }
+}
+
+
+
+#listFG .listFG button{
+      text-shadow: -3px -3px 0 #444444, 1px -3px 0 #444444, -3px 3px 0 #444444, 3px 3px 0 #444444;    
+      -webkit-text-shadow: 1px 1px 0 #000,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #444444,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e;
+      -moz-text-shadow: 1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+   1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e;
+      -o-text-shadow: 1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e;
+text-shadow: 1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    0px 1px 0 #4b773e,
+    0px -1px 0 #4b773e,
+    -1px 0px 0 #4b773e,
+    1px 0px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e,
+    1px 1px 0 #4b773e,
+    -1px 1px 0 #4b773e,
+    1px -1px 0 #4b773e,
+    -1px -1px 0 #4b773e;
+
+      }

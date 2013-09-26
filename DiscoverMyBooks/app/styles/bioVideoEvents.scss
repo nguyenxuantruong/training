@@ -1,0 +1,39 @@
+.authorBio, .youtube, .event{
+	border: 1px solid #cccccc;
+	border-radius: 8px;
+	margin-top: 20px;
+	padding: 20px 50px 20px 20px;
+}
+
+textarea {
+	margin-right: 50px;
+	width: 97%;
+}
+
+input {
+	display: block;
+	width: 90%;
+}
+
+label {
+	margin-bottom:3px;
+}
+
+.addEvent {
+	background: url(../images/addIcon.png) 0px -4px no-repeat;
+	padding-left: 25px;
+}
+
+.times .start select,
+.times .end select {
+	display: inline;
+	width: 58px;
+}
+
+.next, .save {
+	float: left;
+}
+
+.save {
+	margin-left: 20px;
+}

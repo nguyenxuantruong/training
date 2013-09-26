@@ -1,0 +1,124 @@
+@import "compass_twitter_bootstrap";
+
+body {
+	background: #eee;
+	font-size: 13px;
+}
+
+input[type="checkbox"] {
+	margin: 0 10px auto 0;
+}
+
+label {
+	display: inline;
+	font-size: 20px;
+}
+
+#todoList {
+}
+
+#todoList h1 {
+	text-align: center;
+	font-size: 70px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#todoList .body {
+	border: 1px solid gray;
+	padding-top: 15px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.body .enterWork,
+.body .allComplete,
+.body .editWork {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.body .enterWork {
+	height: 40px;
+	font-size: 25px;
+}
+
+input::-webkit-input-placeholder {
+	margin-top: 20px;
+	font-size: 25px;
+	opacity: 0.5;
+}
+
+.allComplete input {
+	
+}
+.allComplete {
+		font-size: 15px;
+}
+
+.listWork {
+	margin-top: 20px;
+}
+
+.listWork li {
+	list-style: none;
+	border-bottom: 2px solid rgba(173, 144, 144, 0.3);
+	padding-bottom: 10px;
+	padding-top: 10px;
+	position: relative;
+}
+
+.delete {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	border: none;
+	background: transparent;
+	display: none;
+}
+
+.delete:hover {
+	text-shadow: 0 0 1px #000,
+				 0 0 10px rgba(199, 107, 107, 0.8);
+	-webkit-transform: scale(1.3);
+	color: #A02A2A;
+}
+
+#todoList .body .displayInline {
+	display: inline;
+}
+
+#todoList .body .displayBlock {
+	display: block;
+}
+
+#todoList .body .noDisplay {
+	display: none;
+}
+
+.line-through {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.footer {
+	background-color: rgba(251, 252, 229, 1);
+	padding: 10px;
+	
+}
+
+.right {
+	float: right;
+}
+
+.right:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.tutorial {
+	text-align: center;
+	margin-top: 30px;
+}

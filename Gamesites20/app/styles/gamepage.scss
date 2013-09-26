@@ -1,0 +1,298 @@
+body {
+      background: #e3effa;
+      background: url(../images/bg-gamepage.png) no-repeat;
+      background-size: 1920px 1500px;
+      background-position: center;
+}
+
+.container {
+      position: relative;
+      font-family: "tunga";
+      background: url("../images/gamepage-avatar-default.png") 410px 110px no-repeat;
+}
+
+.container .avatarUser {
+      position: absolute;
+      left: 677px;
+      top: 321px;
+}
+
+#nav {
+      background: #808080;
+      border: none;
+}
+
+hr {
+      margin: 5px 0;
+      color: #5bb9ff;
+      opacity: 0.35;
+      border: 1px solid #5bb9ff;
+      width: 98%;     
+      margin-left: 1%; 
+}
+
+/* css for content */
+#contentLeft {
+      width: 708px;
+}
+
+#contentLeft > div {
+      margin-left: 25px;
+}
+
+.family img {
+      margin-left: 30px;
+}
+
+#contentLeft .fCity {
+      height: 37px;
+      border: 1px solid #5bb9ff;
+      background: #d6d6d6;
+      font-size: 25px;
+      margin-top: 5px;
+      color: white;
+      border-radius: 3px;
+      font-weight: bold;
+}
+
+.fCity .social {
+      float: right;
+      margin: 0;
+      margin: 5px 10px 0 0;
+}
+
+.social button {
+      width: 26px;
+      height: 26px;
+      border: none;
+}
+.social .google {
+      background: url(../images/social.png) 0 26px;
+}
+.social .twiter {
+      background: url(../images/social.png) 90px 26px;
+}
+
+.social .face {
+      background: url(../images/social.png) 60px 26px;
+}
+.social .email {
+      background: url(../images/social.png) 147px 26px;
+}
+.fCity h1 {
+      float: left;
+      margin: 0px 0 0 5px;
+      font-size: 25px;
+
+}
+
+#myCarousel {
+      width: 683px;
+      height: 542px;
+      margin: 3px 0 0 5px;
+}
+
+.carousel-control {
+      margin: 8px 0 0 5px;
+      width: 30px;
+      height: 37px;
+      border: none;
+      border-radius: 0px;
+}
+
+#play {      
+      position: absolute;
+      left: 272px;
+      top: 281px;
+      background: #989898 url(../images/bigarrow.png) 43px 10px no-repeat;
+      border-radius: 5px;
+      border: 1px solid #00ccff;
+      width: 109px;
+      height: 33px;
+      padding-top: 80px;
+      padding-left: 20px;
+      text-decoration: none;
+}
+
+#play:hover {
+      cursor: pointer;
+}
+
+#play span{      
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      text-align: center; 
+      margin-top: 40px; 
+}
+
+#left {
+      background: url(../images/pre.png) no-repeat;
+      right: 18px;
+      top: 330px;
+}
+
+#right {
+      background: url(../images/next.png) no-repeat;
+      right: 18px;
+      top: 330px;
+}
+
+#imgGame {
+      margin-bottom: 30px;      
+}
+
+#contentLeft .descTitle {
+      color: white;
+      font-size: 26px;
+      margin-left: 20px;
+      border: 1px solid #5bb9ff;
+      background: #d6d6d6;
+      padding: 7px 0 5px 7px;
+      border-radius: 3px;
+      font-weight: bold;
+      margin: 0 0 5px 25px;
+}
+
+#fullDesc {
+      border: 2px solid #16a5ff;
+      background: #cbcbcb;
+      border-radius: 8px;
+      padding: 14px 10px;
+      margin-bottom: 35px;
+}
+
+#fullDesc .description {
+      margin-left: 20px;
+      margin-right: 40px;
+      color: #006883;
+      font-size: 16px;
+}
+#fullDesc .description h2{
+      color: #006985;
+      margin-bottom: 10px;
+}
+
+#fullDesc .description img{
+      float: left;
+      margin-right: 14px;
+}
+
+#fullDesc hr {
+      clear: both;
+      margin: 65px 0 43px 2%;
+      color: #31ccf3;
+      opacity: 1;
+}
+
+#fullDesc .moreFree {
+      color: #006883;
+      font-size: 22px;
+      margin-left: 23px;
+}
+
+.more-game-slider{
+      width: 678px;
+      margin-top: 45px;
+      margin-bottom: 220px;
+}
+
+#asnet-slider-container-small.cuz-asnet-slider-small li{
+      margin-left: 11px;
+      margin-right: 4px;
+}
+
+.move-left-button{
+      background: url(/images/pre.png) no-repeat 0 0;
+      float: left;
+      width: 40px;
+      height: 40px;
+      margin: 54px 0 0 16px;
+}
+
+.cuz-position-left {
+      margin: 39px 0 0 9px;
+}
+
+.move-right-button{
+      background: url(/images/next.png) no-repeat 0 0;
+      float: right;
+      width: 40px;
+      height: 40px;
+      margin: 55px 10px 0 0;
+}
+.cuz-position-right {
+      margin: 39px 20px 0 0;  
+}
+
+/* infor user */
+#contentRight {
+      width: 268px;
+      margin-top: 5px;
+}
+
+#contentRight h2 {
+       color: white;
+       font-size: 30px;
+       font-weight: bold;
+       margin-bottom: 2px;
+       line-height: 30px;
+}
+
+#contentRight .inforUser {
+      font-size: 15px;
+      font-weight: bold;
+      color: #3f3f3f;
+      border: 1px solid #13edff;
+      border-radius: 5px;
+      background: #d7d7d7;
+      padding: 0px 38px 0px 34px;
+}
+#contentRight .inforUser > p {
+margin: 0 0 5px;
+}
+
+#contentRight .left {
+      float: left;
+}
+
+#contentRight .right {
+      float: right;
+}
+
+#contentRight .inforUser > p:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+}
+
+
+/* Targeting only Firefox with CSS */
+@-moz-document url-prefix() {
+    #footer .linkFooter ul li {
+        padding: 0 15px;
+    }
+}
+
+/* IE9, IE10 */
+@media screen and (min-width:0\0) {
+      #nav .siteAuction a {
+          margin-left: 25px;
+      }
+
+      #footer .linkFooter ul li {
+            padding: 0 15px;
+      }
+
+      #nav .notification span {
+            padding-bottom: 4px;
+      }
+
+      #nav .notification {
+            margin-top: -3px;
+      }
+}

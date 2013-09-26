@@ -1,0 +1,38 @@
+.colorView {
+          width: 99px;
+          height: 10px;
+          border: 1px solid white;
+          margin-top: 2px;
+          position: relative;
+}
+
+.colorView .red {
+          border: 1px solid red;
+          width: 33px;
+          height: 10px;
+          background: red;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+}
+
+.colorView .green {
+          border: 1px solid green;
+          width: 33px;
+          height: 10px;
+          background: green;
+          position: absolute;
+          top: 0px;
+          left: 33px;
+}
+
+.colorView .blue {
+          border: 1px solid blue;
+          width: 33px;
+          height: 10px;
+          background: blue;
+          position: absolute;
+          top: 0px;
+          right: 0px;
+}
+

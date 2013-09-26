@@ -1,0 +1,56 @@
+/* IE9, IE10 */
+@media screen and (min-width:0\0) {
+      #nav .siteAuction a {
+          margin-left: 25px;
+      }
+
+      #footer .linkFooter ul li {
+            padding: 0 15px;
+      }
+
+      #gameAchie h1 {
+            background: #c5c5c5;
+      }
+
+      #content #gameAchie h1 {
+            font-weight: bold;
+      }
+      
+      button.buttonGame {
+            background: #2d8eba;
+            margin-top: 5px;
+      }
+
+      .more button.viewAll {
+            background: #63af35;
+      }
+
+      #userInfor .inforUser {
+            background: #c5c5c5;
+      }
+
+      .badgest > div {
+            margin-right: 7px;
+            font-size: 11px;
+      }
+
+      #nav .notification span {
+            padding-bottom: 4px;
+      }
+
+      #nav .notification {
+            margin-top: -3px;
+      }
+
+      h2 {
+            filter: progid:DXImageTransform.Microsoft.Shadow(direction=120,strength=5,color=004a5d);
+      }
+
+      #userInfor .inforUser h2 {
+            filter: progid:DXImageTransform.Microsoft.Shadow(direction=120,strength=5,color=004a5d);
+      }
+
+      button.buttonGame pre {
+            font-weight: bold;
+      }
+}

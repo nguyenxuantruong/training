@@ -1,0 +1,84 @@
+h2 {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.fanPage {
+	background: #f4f4f4;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.fanPage h5 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.addFFP {
+	background: #b3b3b3 url(../images/addFace.png) no-repeat;
+	padding-left: 40px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin: 20px auto;
+	font-size: 18px;
+	border-radius: 5px;
+	height: 32px;
+}
+
+.fans li {
+	position: relative;
+	margin: 10px auto;
+	border-bottom: 1px solid #cccccc;
+	padding-bottom: 10px;
+}
+
+.fans li:last-child {
+	border: none;
+}
+
+.fans li span {
+	position: absolute;
+	top: 15px;
+	font-size: 18px;
+	left: 60px;
+}
+
+.fans button {
+	height: 30px;
+	width: 30px;
+	float: right;
+	margin-top: 15px;
+	background: #f9f9f9;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+}
+
+.fans .active {
+	background: url(../images/ok.png) 3px 5px no-repeat;
+}
+
+#myModal h4 {
+	margin-bottom: 20px;
+}
+
+#myModal .modal-header {
+	border: none;
+}
+
+#myModal .modal-footer {
+	border: none;
+	background: transparent;
+}
+
+#myModal .modal-footer button {
+	background: #4a4a4a;
+	color: white;
+}
+

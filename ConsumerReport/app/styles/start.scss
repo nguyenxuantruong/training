@@ -1,0 +1,155 @@
+/* css for #start */
+#start { 
+	background: #ededdf;
+	font-size: 30px;
+	padding-left: 100px;
+	padding-right: 110px;
+}
+
+#start .state {
+	margin-top: 30px;
+	height: 308px;
+	background: #d6503d url(../images/worldGraph.png) 320px no-repeat;
+}
+
+#start .whatState {
+	padding-top: 65px;
+	color: white;
+	font-family: "Trebuchet MS";
+	margin: auto auto 50px 77px;
+}
+#start .state input {
+	padding-left: 20px;
+	width: 418px;
+	height: 69px;
+	font-size: 48px;
+	font-family: "Trebuchet MS";
+	margin-left: 80px;
+}
+
+#start .containerHelp,
+#healthInsurance .containerHelp {	
+	overflow: hidden;
+}
+
+#start .help,
+#healthInsurance .help {	
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: #ababab;
+	color: white;
+	font-size: 22px;
+	margin: 56px 10px -21px 735px;	
+}
+
+#start .help p,
+#healthInsurance .help p {
+	margin-left: 21px;
+	margin-top: 5px;
+	position: absolute;
+}
+
+.fold {
+	width: 814px;
+	height: 10px;
+	background: #a9aaaa;
+	-webkit-transform: skew(30deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	transform: skew(20deg);
+	margin-left: 3px;
+	margin-bottom: 0;
+}
+
+.foldUnder {
+	-webkit-transform: skew(-30deg);
+	background: #d6d6d6;
+}
+
+#start .age {
+	background: white;
+}
+
+/* css for range age */
+ #start .age li .ageText{
+	color: black;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+}
+
+#start .age .range {
+	background: #f4f4f4;
+	border-top: 1px solid #d6d8d2;
+	border-bottom: 13px solid #f4f4f4;
+}
+
+#start .age .active .range {
+	border-bottom: 14px solid #95d0e6;
+}
+
+#start .age .active .shapeRange {
+	display: block;
+}
+
+#start .rangeAge .shapeRange:before {
+	background: #36add9;
+}
+#start .rangeAge .shapeRange:after {
+	background: #36add9;
+}
+
+#start .age .help {
+	margin-top: 30px;
+}
+
+#start .whatAge,
+#start .howPeople{
+	font-size: 30px;
+	padding-top: 60px;
+	margin-left: 77px;
+	margin-bottom: 100px;
+	word-spacing: 6px;
+}
+
+#start h1 {
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	font-size: 60px;
+	margin-left: 75px;
+	padding-top: 10px;
+}
+
+#start .people {
+	background: white;
+}
+
+#start .people input {
+	font-size: 45px;
+	padding: 15px;
+	height: 40px;
+	margin-left: 80px;
+	width: 130px;
+}
+
+#start .people .howPeople {
+	padding-top: 52px;
+	margin-bottom: 91px;
+}
+
+#start .people .peopleTip {
+	background: #e2e8ee;
+	width: 435px;
+	padding: 15px;
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 21px;
+	margin-bottom: 67px;
+}
+
+#start .peopleShape {
+	border-right: 14px solid #e2e8ee;
+	margin-left: -29px;
+	margin-top: 10px;
+}

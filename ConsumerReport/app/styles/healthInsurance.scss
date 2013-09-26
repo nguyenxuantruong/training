@@ -1,0 +1,334 @@
+/* css for #healthInsurance */
+#healthInsurance {
+	background: #ededdf;
+	padding: 70px 110px 0 100px;
+	border-bottom: 2px solid #b9c0c3;
+}
+
+.desc,
+.kind,
+.income {
+	background: #36add9;
+	padding: 50px 10px 93px 50px;
+}
+
+.desc .descHealth,
+.kind .whatKind,
+.kind .are,
+.income .whatIncome {
+	font-size: 30px;
+	font-family: "Trebuchet MS";
+	color: white;
+	width: 460px;
+	margin-bottom: 40px;
+	line-height: 42px;
+}
+
+.desc .situation {
+	float: left;
+}
+
+.desc .situation li,
+.kind .situation li {
+	list-style: none;
+	font-size: 18px;
+	line-height: 18px;
+	width: 410px;
+	padding: 10px;
+	margin-bottom: -4px;
+	margin-left: -10px;
+}
+
+.desc .situation li:hover,
+.kind .situation li:hover {
+	cursor: pointer;
+}
+
+.desc .situation .radio,
+.kind .situation .radio {
+	background: url(../images/radio.png) -1px no-repeat;
+	margin-right: 10px;
+}
+
+.desc .situation .checked,
+.kind .situation .checked {
+	background: #c7e6f3;
+}
+
+.desc .situation .checked .radio,
+.kind .situation .checked .radio {
+	background: url(../images/radioChecked.png);
+}
+
+.desc .situationTip,
+.kind .kindTip {
+	padding: 22px 15px;
+	background: #91c7de;
+	color: #4a3802;
+	font-size: 15px;
+	width: 216px;
+	display: inline-block;
+	margin: 13px 20px auto 35px;
+}
+
+.desc .situationArrow {
+	border-right: 14px solid #91c7de;
+	margin-left: -29px;
+	margin-top: 2px;
+}
+
+.kind {
+	background: white;
+}
+
+.kind .whatKind {
+	color: black;
+	float: left;
+	margin-top: 13px;
+	margin-left: 27px;
+	width: 420px;
+}
+
+.kind .kindTip {
+	background: #e2e8ee;
+	margin-top: -13px;
+}
+
+.kind .kindArrow {
+	border-right: 14px solid #e2e8ee;
+	margin-left: -29px;
+	margin-top: 2px;
+}
+.kind .situation:after {
+	content: "";
+	display: block;
+}
+
+.areYou {
+	margin-top: 170px;
+	margin-bottom: -35px;
+}
+
+.areYou .are {
+	color: black;
+	margin-left: 26px;
+}
+
+.insuranceSatte {
+	position: absolute;
+	background: white;
+	left: 0;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+
+.insuranceSatte li:first-child .circle,
+.insuranceSatte li:nth-child(2) .circle,
+.insuranceSatte li:first-child .line,
+.insuranceSatte li:nth-child(2) .line,{
+	background: #36add9;
+}
+
+.insuranceSatte img {
+	padding-left: 9px;
+}
+
+.insuranceSatte .stateBar {
+	clear: none;
+	margin-top: -14px;
+	margin-left: 68px;
+	margin-bottom: 0;
+}
+
+.insuranceSatte .stateBar li {
+	margin-top: 0px;
+}
+
+.insuranceSatte span.span1 {
+	float: right;
+	margin-top: -70px;
+	margin-right: 10px;
+	color: #7dbad4;
+}
+
+/* css for yearly income */
+.income {
+	background: #69bd45;
+	margin-top: 80px;
+	padding: 0;
+}
+.income .whatIncome {
+	margin-left: 75px;
+	padding-top: 50px;
+}
+.income h1 {
+	font-size: 69px;
+	font-family: "Trebuchet MS";
+	color: white;
+	margin-left: 73px;
+	margin-top: 90px;
+	word-spacing: -10px;
+}
+
+.income .range,
+.age .range {
+	background: #2c813f;
+	border-top: 7px solid #2c813f;
+	border-bottom: 7px solid #2c813f;
+	width: 130px;
+	margin: 21px 0 10px 0;
+}
+
+.income .rangeIncome,
+.age .rangeAge {
+	margin-top: 28px;
+	margin-left: 62px;
+}
+
+.income .rangeIncome li,
+.age .rangeAge li {
+	float: left;
+	list-style: none;
+	width: 130px;
+	position: relative;
+	overflow: hidden;
+}
+
+.income .rangeIncome li:hover,
+.age .rangeAge li:hover {
+	cursor: pointer;
+}
+
+.income .rangeIncome li:after,
+.age .rangeAge li:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.rangeIncome:after,
+.rangeAge:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.income li:first-child,
+.income li:last-child,
+.age li:first-child,
+.age li:last-child {
+	width: 73px;
+}
+
+.income li:first-child .range,
+.age li:first-child .range {
+	border-bottom-left-radius: 90px;
+	border-top-left-radius: 90px;
+	width: 73px;
+}
+
+.income li:last-child .range,
+.age li:last-child .range {
+	border-bottom-right-radius: 90px;
+	border-top-right-radius: 90px;
+	width: 73px;
+}
+
+.income li:first-child .shapeRange,
+.age li:first-child .shapeRange,
+.income li:last-child .shapeRange,
+.age li:last-child .shapeRange {
+	left: 25px;
+}
+
+.rangeIncome .active .range,
+.rangeAge li.active .range {
+	border-top: 7px solid #8ce566;
+	border-bottom: 7px solid #8ce566;
+	display: block;
+}
+
+.rangeIncome .active .shapeRange {
+	display: block;
+}
+
+.rangeIncome .incomeText,
+.rangeAge a {
+	color: white;
+	text-decoration: none;
+	border-left: 5px solid white;
+	padding-left: 10px;
+	text-align: center;
+}
+
+.rangeIncome li:first-child .incomeText,
+.rangeAge li:first-child a {
+	border: none;
+	padding: 0;
+}
+
+
+.rangeIncome .shapeRange,
+.rangeAge .shapeRange {
+  	position: relative;
+  	text-align: center;
+  	padding: 12px;
+  	margin-bottom: 6px;
+  	height: 60px;
+  	width: 4px;
+  	position: absolute;
+  	top: -43px;
+  	left: 50px;
+  	display: none;
+}
+
+.rangeIncome .shapeRange:before,
+.rangeAge .shapeRange:before {
+  	content: '';
+  	position: absolute;
+  	border-bottom: 1px solid black;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	width: 51%;
+  	background: #bffda5;
+  	-webkit-transform: skew(0deg, 16deg);
+  	-moz-transform: skew(0deg, 16deg);
+  	-ms-transform: skew(0deg, 16deg);
+  	-o-transform: skew(0deg, 16deg);
+  	transform: skew(0deg, 16deg);
+}
+.rangeIncome .shapeRange:after,
+.rangeAge .shapeRange:after {
+	content: '';
+  	position: absolute;
+  	border-bottom: 1px solid black;
+  	top: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 50%;
+  	background: #bffda5;
+  	-webkit-transform: skew(0deg, -16deg);
+  	-moz-transform: skew(0deg, -16deg);
+  	-ms-transform: skew(0deg, -16deg);
+  	-o-transform: skew(0deg, -16deg);
+  	transform: skew(0deg, -16deg);
+}
+	  
+#healthInsurance .income .help {
+	background: #2c813f;
+	margin-top: 37px;
+}
+
+#healthInsurance .resultState  {
+	margin-top: -85px;
+}
+
+#healthInsurance .resultState .line,
+#healthInsurance .resultState .circle {
+	background: #36add9;
+}
+
+#healthInsurance .next button {
+	margin-bottom: 190px;
+}

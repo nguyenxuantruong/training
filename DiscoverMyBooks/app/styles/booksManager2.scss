@@ -1,0 +1,82 @@
+
+// .managerBook {
+// 	margin-top: 20px;
+// 	padding-right: 70px;
+// }
+
+.listBooks li, 
+.actionList li {
+	float: left;
+}
+
+.actionList button {	
+	width: 26px;
+	height: 28px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+
+.actionList .search {
+	background: #f6f5f5 url(../images/bookManager-action.png) 3px 1px no-repeat;
+}
+.actionList .edit {
+	background: #f6f5f5 url(../images/bookManager-action.png) -33px 1px no-repeat;
+}
+.actionList .delete {
+	background: #f6f5f5 url(../images/bookManager-action.png) -68px 1px no-repeat;
+}
+
+.listBooks:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.listBooks li {
+	margin: auto 28px;
+}
+.listBooks .actionList li {
+	margin: 0;
+	padding: 0;
+}
+
+.upload {
+	margin: 20px auto;
+}
+
+.body2 h4 {
+	font-weight: normal;
+}
+input[type='radio'] {
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+#myModal .radioMulti {
+	margin-left:  20px;
+}
+
+input[type='file'] {
+	margin-top: 10px;
+}
+
+.display {
+	display: block;
+}
+
+.noDisplay {
+	display: none;
+}
+
+.body2 .btn, .body3 .btn {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#myModal .modal.fade {
+	margin-top: -50%;
+}
+

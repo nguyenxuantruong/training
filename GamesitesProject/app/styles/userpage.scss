@@ -1,0 +1,384 @@
+.progress {
+      height: 13px;
+      margin-bottom: 0;
+      background: #00485c;
+      border-radius: 2px;
+}
+
+body {
+      background-position:center; 
+      background: url(../images/userpage-bg.png) no-repeat;
+      background-size: 1920px 1920px;
+      background-position: center;
+}
+
+.container {
+      font-family: "tunga";
+      height: 1200px;
+      font-size: 13px;
+      color: #00485b;
+}
+
+/* css for navbar */
+#nav {
+      height: 51px;
+      background: #878d8e;
+      font-weight: bold;
+      border: none;
+}
+
+hr {
+      margin: 10px 0 5px 0;
+      color: #5bb9ff;
+      opacity: 0.35;
+      border: 1px solid #5bb9ff;
+      width: 98%;
+      margin-left: 1%;
+}
+
+/*css for content */
+#content {
+      margin-left: 8px;
+      width: 945px;
+      margin-bottom: 280px;
+}
+
+#content .span7 > div {
+      width: 705px;
+      border-radius: 8px;
+      border: 2px solid #17bbff;
+}
+
+#gameAchie {
+     border-bottom: 1px solid #b7eaff;
+     margin-left: 0px;
+      
+}
+ #gameAchie h1 {
+      color: #e3effa;
+      font-size: 32px;
+      font-weight: bold;
+      font-family: "tunga";
+ }
+#gameAchie hr {
+      /* Safari 5.1, Chrome 10+ */
+      background: -webkit-linear-gradient(left, #17bbff, #b1d6e0);
+      /*for firefox*/
+      background: -moz-linear-gradient(left, #17bbff, #b1d6e0);
+      height: 2px;
+      margin: 0;
+      width: 100%;
+}
+
+#gameAchie h1 {
+       /* Safari 5.1, Chrome 10+ */
+      background: -webkit-linear-gradient(bottom, #9b9b9b, #f8f8f8);
+      /*for firefox*/
+      background: -moz-linear-gradient(bottom, #9b9b9b, #f8f8f8);
+      margin: 0;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      font-size: 32px;
+      font-weight: bold;
+      width: 666px;
+      padding-left: 40px;
+      padding-top: 25px;
+      padding-bottom: 19px;
+}
+
+#gameAchie .sort {
+      background: #dbdbdb;
+      color: #404040;
+      font-size: 16px;
+      font-weight: bold;
+      height: 33px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+}
+
+#gameAchie .sort button {
+      border: none;
+      background: transparent;
+      padding-left: 30px;
+      color: #3f3f3f;
+      font-weight: bold;
+      font-family: "tunga";
+      font-size: 16px;
+}
+
+#gameAchie button:nth-child(3) {
+      padding-left: 9px;
+}
+
+.gameArea {
+      margin-left: 0;
+      background: rgba(205,205,205,0.85);
+      padding: 10px 20px;
+      width: 665px !important;
+      margin-top: 5px;
+}
+
+.gameArea .avatarGame {
+      float: left;
+      width: 160px;
+}
+.gameArea .avatarGame img{
+      width: 159px;
+      height: 88px;
+}
+
+.gameArea .avatarGame .progress {
+      width: 159px;
+      margin-top: 6px;
+      height: 13px;
+      margin-left: -3px;
+      margin-bottom: 0;
+      background: #00485c;
+}
+
+.avatarGame p {
+      font-weight: bold;
+
+}
+
+.achievements {
+      float: left;
+      width: 400px !important;
+}
+
+.achievements h2 {
+      margin: -10px 0 0 14px;
+      font-size: 27px;
+      color: white;
+      padding: 0;
+      height: 30px;
+}
+
+button.buttonGame  {
+      border: 1px solid #1cb2d8;
+      border-radius: 5px;
+      background: -webkit-linear-gradient(top, #3194c1, #0b5973);
+      /*for firefox*/
+      background: -moz-linear-gradient(top, #3194c1, #0b5973);
+      height: 25px;
+      padding: 0;
+      float: left;
+}
+
+button.buttonGame:first-child {
+      margin-left: 15px;
+      margin-right: 10px;
+}
+
+pre {
+      background: transparent;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      font-family: "tunga";
+      padding: 0;
+}
+
+.achievements .cup {
+      float: left;
+}
+.cup li {
+      width: 26px;
+      height: 26px;
+      margin-right: 3px;
+}
+.cup li:first-child {
+      background: url(../images/cup.png);
+      margin-left: -10px
+      
+}
+.cup li:nth-child(2) {
+      background: url(../images/cup.png) 26px 0px;
+      
+}
+.cup li:nth-child(3) {
+      background: url(../images/cup.png) 57px 1px;
+      
+}
+.cup li:nth-child(4) {
+      background: url(../images/cup.png) 88px 1px;
+      
+}
+
+.badgest {
+      margin-left: 20px;
+      width: 400px !important;
+      clear: both;
+}
+.badgest > div {
+      float: left;
+      margin-right: 13px;
+}
+
+.badgest p {
+      font-weight: bold;
+      margin-top: -5px;
+}
+.badgest .progress {
+      width: 55px;
+      margin-top: -13px;
+      margin-left: 5px;
+      border-radius: 0;
+}
+
+.more {
+      width: 75px !important;
+}
+
+.more button.viewAll {
+      width: 78px;
+      height: 23px;
+      background: -webkit-linear-gradient(top, #6bbd3a, #487924);
+      /*for firefox*/
+      background: -moz-linear-gradient(top, #6bbd3a, #487924);
+      color: white;
+      text-align: center;
+      border: 1px solid #20b5da;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: "tunga";
+      margin-left: 5px;
+}
+
+.more a {
+      position: relative;
+      font-weight: bold;
+      font-size: 16px;
+      color: #00485b;
+      left: 11px;
+      top: 89px;
+      cursor: pointer;
+}
+
+/*user infor*/
+#userInfor {
+      float: right;
+}
+
+#userInfor .inforUser {
+      font-size: 15px;
+      font-weight: bold;
+      color: #3f3f3f;
+      border: 1px solid #13edff;
+      border-radius: 5px;
+      background: -webkit-linear-gradient(top, #f0f0f0, #afafaf);
+      /*for firefox*/
+      background: -moz-linear-gradient(top, #f0f0f0, #afafaf);
+      padding: 0px 19px 0px 20px;
+      margin-top: 1px;
+      position: absolute;
+      z-index: -2;
+      width: 184px;
+}
+#userInfor .inforUser > p {
+      margin: 0 0 3px;
+}
+
+#userInfor .inforUser > h2 {
+      margin: 0;
+      font-size: 23px;
+      line-height: 23px;
+      color: #e3effa;
+      margin-top: 2px;
+}
+#userInfor .left {
+      float: left;
+}
+
+#userInfor .right {
+      float: right;
+}
+
+#userInfor .inforUser > p:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+}
+
+#userInfor .character {
+      position: absolute;
+      margin-left: -114px;
+      margin-top: 111px;
+      z-index: -1;
+}
+
+/* css for footer */
+#footer {
+      background: #787f81;
+      height: 84px;
+}
+
+#footer .linkFooter .infor {
+      margin-top: 12px;
+      font-weight: normal;
+}
+#footer .linkFooter .infor p:last-child {
+      margin-top: -2px;
+}
+
+/* Targeting only Firefox with CSS */
+@-moz-document url-prefix() {
+      body {
+            font-size: 13px;
+            font-weight: normal;
+      }
+
+      #footer .linkFooter ul li {
+            padding: 0 15px;
+      }
+
+      .badgest p {
+            font-size: 11px;
+      }
+}
+
+/* IE9, IE10 */
+@media screen and (min-width:0\0) {
+      #nav .siteAuction a {
+            margin-left: 25px;
+      }
+
+      #footer .linkFooter ul li {
+            padding: 0 15px;
+      }
+
+      #gameAchie h1 {
+            background: #c5c5c5;
+      }
+      
+      button.buttonGame {
+            background: #2d8eba;
+            margin-top: 5px;
+      }
+
+      .more button.viewAll {
+      background: #63af35;
+      }
+
+      #userInfor .inforUser {
+            background: #c5c5c5;
+      }
+
+      .badgest > div {
+            margin-right: 8px;
+            font-size: 12px;
+      }
+
+      #nav .notification span {
+            padding-bottom: 4px;
+      }
+
+      #nav .notification {
+            margin-top: -3px;
+      }
+}

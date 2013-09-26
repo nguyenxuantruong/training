@@ -1,0 +1,105 @@
+.account {
+	padding-left: 15px;
+	padding-right: 10px
+}
+
+.account h5 {
+	font-weight: bold;
+	font-size: 14px;
+	margin: 20px auto 30px 30px;
+}
+
+.account .discover {
+	background: #f7f3ea;
+	padding: 20px;
+}
+.account h6 {
+	text-align: center;
+	color: #c8a047;
+}
+
+.account h4 {
+	color: #c49a3c;
+	text-align: center;
+}
+
+.account p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.account button {
+	border: 1px solid #ac8835;
+	background: #e5bd62;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+	margin: 20px auto auto auto;
+	height: 30px;
+	width: 148px;
+	display: block;
+
+}
+
+#setting .row {
+	margin-top: 10px;
+}
+
+.setting {
+	padding: 20px;
+}
+
+label.span2 {
+	text-align: right;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+#setting select {
+	background: -webkit-linear-gradient(top, #e9e9e9, #fafafa);
+	width: 125px;
+}
+
+#setting input[type='checkbox'] {
+	margin-top: 1px;
+	float: left;
+}
+
+#setting input[type='text'] {
+	width: 100%;
+}
+
+.checkbox {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.checkbox label {
+	margin-top: 5px;
+}
+
+#setting .changePass {
+	margin: 15px auto;
+}
+
+.border {
+    border-bottom: 2px solid #e0e0e0;
+   	margin-top: 20px;
+   	margin-bottom: 20px;
+}
+
+.save, .calcel {
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #b8b8b8;
+}
+
+.save {
+	background: #323232;
+	color: white;
+}
+
+.calcel {
+	background: -webkit-linear-gradient(top, #fbfbfb, #e8e8e8);
+}
+

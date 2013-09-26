@@ -1,0 +1,87 @@
+{
+	"books": [
+		{
+			"authorId" : 1,
+			"books" : [
+				{
+					"authorId" : 1,
+					"bookId" : 1,
+					"title": "book 1 of authorId 1",
+					"completed" : " 20%",
+					"photo" : "images/book1.jpg"
+				},
+				{
+					"authorId" : 1,
+					"bookId" : 2,
+					"title": "book 2 of authorId 1",
+					"completed" : "40%",
+					"photo" : "images/book2.jpg"
+
+				},
+				{
+					"authorId" : 1,
+					"bookId" : 3,
+					"title": "book 3 of authorId 1",
+					"completed" : "60%",
+					"photo" : "images/book3.jpg"
+
+				},
+				{
+					"authorId" : 1,
+					"bookId" : 4,
+					"title": "book 4 of authorId 1",
+					"completed" : "80%",
+					"photo" : "images/book4.jpg"
+
+				}
+				
+			]
+		},
+		{
+			"authorId" : 2,
+			"books" : [
+				{
+					"authorId" : 2,
+					"bookId" : 1,
+					"title": "book 1 of authorId 2",
+					"completed" : " 20%",
+					"photo" : "images/book5.jpg"
+
+
+				},
+				{
+					"authorId" : 2,
+					"bookId" : 2,
+					"title": "book 2 of authorId 2",
+					"completed" : "40%",
+					"photo" : "images/book6.jpg"
+
+				},
+				{
+					"authorId" : 2,
+					"bookId" : 3,
+					"title": "book 3 of authorId 2",
+					"completed" : "60%",
+					"photo" : "images/book7.jpg"
+
+				},
+				{
+					"authorId" : 2,
+					"bookId" : 4,
+					"title": "book 4 of authorId 2",
+					"completed" : "80%",
+					"photo" : "images/book8.jpeg"
+
+				},
+				{
+					"authorId" : 2,
+					"bookId" : 5,
+					"title": "book 5 of authorId 2",
+					"completed" : "90%",
+					"photo" : "images/book9.jpg"
+
+				}
+			]
+		}
+	] 
+}

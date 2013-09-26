@@ -1,0 +1,89 @@
+.arrangeBooks {
+	border-radius: 8px;
+	border: 2px solid #cccccc;
+	margin-top: 20px;
+}
+
+.arrangeBooks .header {	
+	font-weight: bold;
+	background: -webkit-linear-gradient(top, #f8f8f8, #f3f3f3);
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+}
+
+.header li {
+	width: 20px;
+	padding: 5px;
+}
+
+#accordion {
+	margin-bottom: 0;
+}
+
+#accordion .progress {
+	margin-bottom: 10px;
+	height: 13px;
+}
+
+#accordion .order {
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	width: 30px;
+	height: 30px;
+}
+#accordion .order span {
+	position: absolute;
+	margin-left: 11px;
+	margin-top: 8px;
+}
+
+#accordion .edit {
+	background: url(../images/action.png) 0px 3px no-repeat;
+	height: 20px;
+	float: left;
+	margin-left: 10px;
+}
+
+#accordion .delete {
+	background: url(../images/action.png) -37px 3px no-repeat;
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+#accordion .header li{
+	margin-top: 10px;
+}
+
+.feature {
+	margin-top: 10px;
+}
+
+.feature .span4{
+	font-weight: bold;
+	margin-top: 5px;
+	text-align: right;
+}
+
+
+.feature input[type='text'],
+.feature textarea {
+	width: 95%;
+	float: left;
+}
+
+.myCaret {
+	background: none repeat scroll 0 0 #e2e9ee;
+	color: #45759d;
+	font-size: 13px;
+	height: 32px;
+	line-height: 32px;
+	margin: 0 0 0 5px;
+	padding: 0 10px 0 28px;
+	position: relative;
+	text-decoration: none;
+	float: left;
+	margin-bottom: 20px;
+}
+

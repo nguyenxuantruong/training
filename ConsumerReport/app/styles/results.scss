@@ -1,0 +1,310 @@
+/* css for #results */
+#results {
+	padding-top: 37px;
+	background: #ebf4f7;
+}
+
+#results > * {
+	margin-left: 100px;
+	margin-right: 110px;
+}
+
+#results h1 {
+	font-size: 50px;
+	color: #36add9;
+}
+
+#results .twoOptions {
+	font-size: 30px;
+	font-family: "Trebuchet MS";
+	color: #1d6581;
+	margin-top: 30px;
+}
+
+#results .optionsBtn {
+	margin-left: -16px;
+}
+
+#results .optionsBtn button {
+	background: #d6503d;
+	font-size: 16px;
+	padding: 10px 30px;
+	color: white;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+
+#results .option1,
+#results .option2 {
+	font-size: 19px;
+	margin-top: 20px;
+	background: white;
+	box-shadow: -4px 2px 10px #ccc
+}
+
+#results .option1 .title,
+#results .option2 .title{
+	font-size: 20px;
+	color: #e17f71;
+	margin-top: 30px;
+}
+
+#results .option1 h4,
+#results .option2 h4 {
+	color: #1c6581;
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+}
+
+#results .option1 .option1Left > *,
+#results .option2 > * {
+	margin-left: 30px;
+}
+
+#results .option2  {
+	margin-top: 10px;
+	padding-bottom: 55px;
+}
+
+#results .option2 .title {
+	margin-top: 25px;
+
+}
+
+#results .option2 h4 {
+	margin-bottom: 30px;
+}
+#results .option2 .ship {
+	margin-top: 40px;
+}
+
+#results .steps {
+	margin-top: 40px;
+}
+
+#results .steps li {
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+#results .steps .step1,
+#results .steps .step2,
+#results .steps .step3 {
+	padding: 30px;
+	margin-top: -13px;
+	margin-left: -3px
+}
+#results .steps .step1 {
+	background: url(../images/iconNextSteps.png) no-repeat;	
+}
+#results .steps .step2 {
+	background: url(../images/iconNextSteps.png) 0px -75px no-repeat;	
+}
+#results .steps .step3 {
+	background: url(../images/iconNextSteps.png) 0px -170px no-repeat;	
+}
+
+#results .steps span.number {
+	color: #cd4d3e;
+	font-size: 36px;
+	margin-right: 16px;
+}
+
+#results .steps .span8 {
+	font-size: 15px;
+	margin-left: 30px;
+}
+
+#results .nextSteps {
+	border: 5px solid #ededed;
+	margin-top: 68px;
+	width: 475px;
+	margin-bottom: 28px;
+}
+
+#results .nextSteps .waring {
+	color: #e05d52;
+}
+
+.nextSteps .yourNextSteps {
+	font-size: 21px;
+	color: #1c6581;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+.takeNoteContainer {
+	position: relative;
+	margin: 35px 25px 20px -6px;
+}
+.takeNoteContainer .note {
+	margin-left: 18px;
+	position: relative;
+	top: -13px;
+}
+
+#results .takeNoteContainer .takeNote {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.takeNoteContainer .tnText {
+	color: white;
+	font-size: 14px;
+	background: url(../images/takeNote.png) no-repeat;
+	position: absolute;
+	z-index: 2;
+	padding-left: 20px;
+}
+
+.takeMain {
+	height:0; 
+    width:100px; 
+    border-top:11px solid #cd4d3e;
+    border-bottom:11px solid #cd4d3e;
+    border-right:5px solid transparent;
+}
+
+.triangleTopRight{
+     width:0; 
+     height:0; 
+     border-right:6px solid #952c23;
+     border-top:6px solid #952c23;
+     border-left:6px solid transparent;
+     border-bottom:6px solid transparent;
+}
+
+.noteContent {
+	background: #f8e8e2;
+	font-size: 15px;
+	margin-top: 20px;
+	margin-left: 28px;
+	padding: 20px;
+}
+
+.note-arrow {
+	position: absolute;
+	width:0; 
+    height:0; 
+    border-bottom: 16px solid #f8e8e2;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	left: 253px;
+	top: -15px;
+}
+
+#results .option1Right {
+	width: 265px;
+	margin-left: 65px;
+	margin-top: 70px;
+}
+
+.know {
+	background: #f1f1f1;
+	font-size: 15px;
+}
+
+#results .know h5 {
+	font-size: 21px;
+	padding-top: 20px;
+	margin-bottom: 35px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.know ul {
+	margin-right: 10px;
+	padding-bottom: 20px;
+}
+
+
+.option2 .ship {
+	float: right;
+}
+
+/* css for form update */
+.formUpdate {
+	background: #d8f0fc;
+	margin-top: 27px;
+	padding-top: 17px;
+	padding-bottom: 30px;
+	margin-bottom: 40px;
+}
+
+.formUpdate h6 {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.formUpdate > .span8 * {
+	margin-left: 30px;
+}
+
+.formUpdate input[type='email'] {
+	height: 30px;
+	padding: 5px;
+	width: 290px;
+}
+
+.formUpdate .update {
+	background: #d6503d;
+	border: none;
+	color: white;
+	padding: 5px 20px;
+	margin-left: -3px;
+	height: 40px;
+	margin-top: -10px;
+}
+
+.formUpdate li {
+	list-style: none;
+	float: left;
+	padding: 25px;
+	cursor: pointer;
+	margin-top: 7px;
+}
+
+.formUpdate .twiter {
+	background: url(../images/social.png) no-repeat;
+	margin-left: -25px;
+}
+
+.formUpdate .face {
+	background: url(../images/social.png) -59px 0px no-repeat;
+	margin-left: 8px;
+}
+.formUpdate .google {
+	background: url(../images/social.png) -123px 0px no-repeat;
+	margin-left: 13px;
+}
+.formUpdate .email {
+	background: url(../images/social.png) -183px 0px no-repeat;
+	margin-left: 10px;
+}
+
+.learnMore {
+	margin-bottom: 36px;
+}
+
+.learnMore .title {
+	font-size: 28px;
+	color: #1c6581;
+	margin-bottom: 25px;
+}
+
+.learnMore .listLearMore {
+	margin-left: 0px;
+	margin-top: 25px
+}
+.learnMore .listLearMore li {
+	list-style: none;
+	color: #36add9;
+	font-size: 15px;
+}
+
+.learnMore .glossary span {
+	background: #addef8;
+	color: #1c6581;
+	font-size: 15px;
+}

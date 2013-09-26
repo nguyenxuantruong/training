@@ -1,0 +1,224 @@
+@import "compass_twitter_bootstrap";
+
+@font-face {
+      font-family: 'tunga';
+	src: url('../font/tunga.ttf');
+}
+@font-face {
+	font-family: 'tunga';
+	src: url('../font/tungb.ttf');
+}
+@font-face {
+	font-family: 'cooperblack'; 
+	src: url('../font/CooperBlackStd.otf');
+}
+@font-face {
+	font-family: 'ebrima'; 
+	src: url('../font/ebrimabd.ttf');
+}
+@font-face {
+   	font-family: 'mariadpro'; 
+   	src: url('../font/mariadpro.otf');
+}
+
+a {
+      color: white;
+}
+a:hover{
+      color: white;
+}
+
+li {
+      list-style: none;
+      float: left;
+}
+
+body {
+      background-position:center; 
+}
+
+.error {
+      color: red;
+      display: inline;
+}
+
+.container {
+	width: 1024px;
+}
+
+/* css for navbar */
+#nav {
+      height: 51px;
+      border: 1px solid #26d1fa;
+      background: #006883;
+      border-radius: 10px;
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      -moz-font-size: 14px;
+}
+
+#nav .notificationNumber {
+      background: red;
+      border: 1px solid red;
+      padding: 0 4px;
+      border-radius: 5px;
+      height: 16px;
+}
+
+#nav .navText img{
+      margin-top: 5px;
+}
+
+#nav .navText div:first-child {
+      float:right;
+      padding-right:10px;
+}
+
+#nav .navText div:last-child {
+      float:right;
+      display:inline;
+      margin-right:40px;
+}
+
+#nav .navText:nth-child(2) {
+      margin-top: 18px;
+      color: white;
+}
+
+#nav .navText:last-child {
+      cursor:pointer;
+}
+
+#nav .notification {
+      float: left;
+      margin-top: -2px;
+}
+
+#nav .notification span {
+      color: white;
+      line-height: 15px;
+      height: 15px;
+      font-weight: bold;
+      background: red;
+      border-radius: 6px;
+      padding: 5px 7px 2px 7px;
+      display: inline-block;
+      font-size: 21px;
+      margin-left: 5px;
+}
+
+#nav .siteAuction a{
+      margin-left: 45px;
+}
+
+
+#nav img {
+      margin-right: 10px;
+}
+
+#nav .avatar {
+      position: relative;
+      margin-top: -20px;
+      float: right;
+}
+
+#nav .avatar img {
+            background: white;
+}
+
+#nav .dropdown {
+      float: right;
+}
+
+#nav .caret {
+      border-top: 10px solid white;
+      border-right: 7px solid transparent;
+      border-left: 7px solid transparent;
+      margin-top: 6px;
+      margin-left: 5px;
+}
+
+/* css for footer */
+#footer {
+      border-radius: 8px;
+      margin-top: 3px;
+      background: #808080;
+      height: 84px;
+}
+
+#footer > div {
+      margin-top: 13px;
+}
+
+#funLeft {
+      margin: 10px 0px auto 15px;
+      width: 153px;
+}
+
+#footer .linkFooter {
+      margin-left: 5px;
+      margin-right: auto;
+      margin-top: 10px;
+      line-height: 13px;
+      font-size: 16px;
+      width: 738px;
+      font-weight: bold;
+}
+
+#footer .linkFooter ul {
+      margin-left: 1px;
+}
+
+#footer .linkFooter ul li {
+      display: inline-block;
+      padding: 0 22px;
+      border-right: 1px solid white;  
+      margin-top: 4px;   
+}
+
+#footer .linkFooter ul li:first-child {
+      padding-left: 0px;
+}
+
+#footer .linkFooter ul li:last-child {
+      border: none;
+}
+
+#footer .linkFooter .infor {
+      margin-top: 35px;
+      position: relative;
+      font-weight: normal;
+}
+#footer .linkFooter .infor p:last-child {
+      margin-top: -2px;
+}
+
+#funRight {
+      float: right;
+      width: 90px;
+}
+
+#funRight img{
+      float: right;
+      margin-right: 10px;
+}
+#funRight img:first-child{
+      margin-right: 31px;
+}
+
+#footer .infor p{
+      text-align: center;
+      color: #61adcf;
+}
+
+/* Targeting only Firefox with CSS */
+@-moz-document url-prefix() {
+    #nav .caret {
+        margin-top: 7px;
+    }
+
+    #nav .notification span {
+    	padding-bottom: 3px;
+    }
+}

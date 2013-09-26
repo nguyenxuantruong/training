@@ -1,0 +1,520 @@
+body {
+    background: #e3effa url(../images/background.png) no-repeat;
+    background-position: center top;
+    background-size: 1920px;
+}
+
+.container {
+    background: url(../images/may.png) 0 35px no-repeat;
+    font-family: "tunga";
+}
+
+hr {
+    margin: 10px 0 5px 0;
+    color: #5bb9ff;
+    opacity: 0.35;
+    border: 1px solid #5bb9ff;
+    width: 98%;
+    margin-left: 1%;
+}
+
+/* css for more game */
+#moreGame {
+    position: relative;
+    border: 2px solid #21c9eb;
+    margin-top: 17px;
+    background-color: rgba(138, 168, 200, 0.85);
+    border-radius: 8px;
+}
+
+#moreGame .moreImg {
+    position: absolute;
+    top: -42px;
+    left: 37px;
+}
+
+#moreGame .title {
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    font-size: 20px;      
+    background: url(../images/moregameText.png);
+    width: 133px;
+    height: 39px;
+}
+
+#moreGame .title span{
+    font-size: 30px;
+
+}
+
+#listMoreGame {
+    display: block;
+    margin: 42px 100px 0 120px;
+}
+#listMoreGame .ulListGame {
+    margin-bottom: -2px;
+}
+#listMoreGame ul li {
+    width: 182px;
+    height: 150px;
+    margin-left: 2px;
+}
+
+#listMoreGame ul li div.logo{
+    background-color: rgba(0, 0, 0, 0.48);
+    list-style: none;
+    float: left;
+    border-radius: 8px;
+    width: 178px;
+    height: 95px;
+}
+
+#listMoreGame img {
+    margin-top: 10px;
+    margin-left: 4px;
+    width: 169px;
+    height: 73px;
+}
+
+#listMoreGame .descriptionMoreGame {
+    clear: both;
+    font-family: Ebrima;
+    font-size: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#listMoreGame .descriptionMoreGame .name {
+    border-bottom: 1px solid #5e7287;
+    font-variant: small-caps;
+    text-transform: capitalize;     
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#listMoreGame .descriptionMoreGame span {
+    font-size: 13px;
+}
+
+#listMoreGame .descriptionMoreGame .name img {
+    width: 40%;
+    height: 40%;
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+#listMoreGame .descriptionMoreGame .desc {
+    clear: both;
+    text-transform: uppercase;
+    font-size: 7px;
+    line-height: 7px;
+    font-weight: normal;
+}
+
+#listMoreGame .descriptionMoreGame a {
+    color: #57a6ca;
+}
+
+#listMoreGame .descriptionMoreGame a span {
+    font-weight: bold;
+    font-size: 8px;
+    color: #2694AA;
+}
+
+/* css for footer */
+#footer {
+    border: 2px solid #21c9eb;
+    background: #006883;
+}
+
+#footer .linkFooter .infor {
+    margin-top: 12px;
+    font-weight: normal;
+}
+#footer .linkFooter .infor p:last-child {
+    margin-top: -2px;
+}
+
+#footer .infor p{
+    text-align: center;
+    color: #61adcf;
+}
+
+/* avartar */
+.avatarDefault {
+    position: absolute;
+    top: 33px;
+    left: 120px;
+}
+
+/* css for sign up */
+#signUp {
+    margin-top: 18px;
+    position: relative;
+}
+
+#signUp .bigText{
+   background: url(../images/play.png);
+   width: 385px;
+   height: 104px;
+   margin-left: 357px;
+}
+
+#signUp span {
+    font-size: 45px;
+}
+
+#signUp .labelSignUp {
+    color: #00576e;
+    text-align: center;
+    font-size: 11px;
+    text-transform:uppercase;
+}
+
+#signUp .labelSignUp span{
+    font-size: 15px;
+}
+
+#signUp .email {
+    border: 2px solid #c5cec6;
+    margin-left: 418px;
+    margin-right: auto;
+    display: block;
+    width: 305px;
+    height: 25px;
+    background-color: rgba(85, 111, 140, 0.43);
+    border-radius: 5px;
+    color: white;
+    margin-top: -7px;
+}
+
+#signUp .commit {
+    border: none;
+    font-size: 30px;
+    height: 47px;
+    width: 106px;
+    background: transparent;
+    background: url(../images/signup.png);
+    margin-left: 575px;
+    margin-top: -10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00546a;
+}
+
+#signUp button span {
+    font-size: 45px;
+}
+
+/* sign up container */
+.signUpContainer {
+    border: 1px solid #3ac2fa;
+    border-radius: 8px;
+    background: transparent;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bold;
+    width: 589px;
+}
+.signUpContainer h2 {
+    font-size: 38px;
+    color: white;
+    padding-left: 18px;
+    margin-top: 13px;
+}
+
+.signUpContainer .singUpHeader {
+      background: #cccccc;
+}
+
+.signUpContainer .temp{
+      border: 7px solid #cccccc;
+      border-radius: 8px;
+}
+
+.signUpContainer .singUpHeader .span4 {
+    color: #3c3c3c;
+    font-size: 13px;
+    margin-top: 24px;
+    padding-left: 43px;
+    letter-spacing: -1px;
+}
+
+.signUpContainer .singUpHeader .span2 {
+    color: #23bbee;
+    font-size: 16px;
+    margin-top: 25px;
+    padding-left: 7px;
+    letter-spacing: -1px;
+}
+
+.signUpContainer .signUp {
+    border: 1px solid #3ac2fa;
+    background: rgba(238,242,240, 0.60);
+}
+
+.signUpContainer .signUp p, .signUpContainer .signUp label {
+    margin-top: 16px;
+    margin-left: 17px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signUpContainer .signUp .social button {
+    width: 170px;
+    height: 30px;
+    border: none;
+}
+
+.signUpContainer .signUp .social button:first-child{
+    background: url(../images/signup-social.png);
+    margin-left: 17px;
+}
+
+.signUpContainer .signUp .social button:nth-child(2) {
+    background: url(../images/signup-social.png) 363px ;
+    margin-left: 11px;
+}
+.signUpContainer .signUp .social button:nth-child(3) {
+    background: url(../images/signup-social.png) 170px ;
+    margin-left: 20px;
+}
+
+.signUpContainer .signUp input {
+    height: 27px;
+    width: 252px;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+
+.signUpContainer .signUp .birthday {
+    margin-top: 7px;
+    margin-left: 21px;
+}
+
+.signUpContainer .signUp .dropdown-toggle {
+    width: 105px;
+    height: 40px;
+    font-size: 21px;
+    color: white;
+    font-family: "mariadpro";
+    border: 2px solid #66bad2;
+    background: -webkit-linear-gradient(left, #b8b8b8, #a2a2a2);
+    background: -moz-linear-gradient(left, #b8b8b8, #a2a2a2);
+    font-weight: bold;
+}
+
+.signUpContainer .signUp .caret {
+    border-top: 8px solid white;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    margin-left: -8px;
+    margin-top: 4px;
+    float: right;
+}
+
+.bootstrap-select {
+    float: left;
+    margin-left: 17px;
+    margin-right: -15px;
+}
+
+.first .pull-left{
+    margin-left: -34px !important;
+    width: 83px !important;
+}
+
+.signUpContainer .signUp .pull-left {
+      margin-left: -9px;
+      width: 65px;
+      border-right: 1px solid #9e9e9e;
+}
+
+.signUpContainer .signUp .why {
+    margin-left: 17px;
+    color: black;
+}
+
+.signUpContainer .signUp .submit {
+    width: 236px;
+    height: 49px;
+    border: 1px solid #42b1ce;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(top, #52c441, #339a23);
+    background: -moz-linear-gradient(top, #52c441, #339a23);
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 13px;
+    margin-left: 17px;
+}
+
+ /* FS online */
+.singUpHeaderS2  {
+    width: 586px;
+    margin-left: -7px;
+    border: 1px solid #3ac2fa;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: none;
+    background: #cccccc;
+}
+
+.signUp h4 {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.signUp label.s2, input.s2 {
+    margin-left: 23px !important;
+}
+
+.signUp label.first {
+    margin-top: 26px !important;
+}
+.signUp label.second {
+    margin-top: 8px !important;
+}
+
+.signUp label.third {
+    margin-top: 3px !important;
+}
+
+.signUpContainer .submitS2 {
+    margin-top: 65px !important;
+    margin-right: 6px !important;
+    float: right !important;
+    width: 205px !important;
+    height: 46px !important;
+    margin-bottom: 6px !important;
+    margin-right: 12px !important;
+    background: -webkit-linear-gradient(top, #4fc33d, #39ad27) !important;
+}
+
+/* screen 3 */
+.signUpContainer .boy, .signUpContainer .girl {
+    width: 233px;
+    height: 331px;
+    border: none;
+    border-radius: 8px;
+}
+.signUpContainer .boy:hover, .signUpContainer .girl:hover {
+    cursor: pointer;
+}
+
+.signUpContainer .girl {
+    background: url(../images/girl-bg.png);
+    margin: 15px 20px auto 20px !important;
+}
+
+.signUpContainer .boy {
+    background: url(../images/boy-bg.png);
+    margin: 15px 20px auto auto;
+    float: right;
+}
+
+.signUpContainer .boy img{
+    margin-left: 67px;
+    margin-top: 18px;
+}
+
+.signUpContainer .girl img {
+    margin-left: 40px;
+    margin-top: 13px;
+    
+}
+
+.signUpContainer .btnS3 {
+    width: 182px;
+    height: 37px;
+    border: 1px solid #41b6d6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+}
+
+.signUpContainer .backS3, .signUpContainer .backS4 {
+    background: -webkit-linear-gradient(top, #6f6f6f, #838383);
+    background: -moz-linear-gradient(top, #6f6f6f, #838383);
+    margin: 10px auto 10px 22px !important;
+}
+.signUpContainer .nextS3, .signUpContainer .nextS4 {
+    background: -webkit-linear-gradient(top, #4fc33d, #39ae28);
+    background: -moz-linear-gradient(top, #4fc33d, #39ae28);
+    margin: 10px 15px auto auto;
+    float: right;
+}
+
+/* screen 4 */
+.signUpContainer h4.usernameS4 {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 24;
+    margin-top: 10px !important;
+}
+
+.placeholder {
+    position: absolute;
+    top: 115px;
+    left: 512px;
+    font-size: 20px !important;
+    font-family: "tunga";
+    color: white;
+    text-align: center;
+    opacity: 0.43;
+    font-variant: small-caps;
+    text-transform: capitalize;
+}
+
+/* Targeting only Firefox with CSS */
+@-moz-document url-prefix() {
+    #footer .linkFooter ul li {
+        padding: 0 15px;
+    }
+
+    .signUpContainer .signUp .caret {
+        margin-top: -10px;
+    }
+
+    #nav .notification span {
+        padding-bottom: 5px;
+    }
+}
+
+/* IE9, IE10 */
+@media screen and (min-width:0\0) {
+    #nav .siteAuction a {
+        margin-left: 25px;
+    }
+
+    #footer .linkFooter ul li {
+          padding: 0 15px;
+    }
+
+    #nav .notification span {
+          padding-bottom: 4px;
+    }
+
+    #nav .notification {
+          margin-top: -3px;
+    }
+
+    .signUpContainer .signUp button.dropdown-toggle {
+          background: #9e9e9e;
+    }
+
+    .signUpContainer .signUp button.submit {
+          background: #40be2d;
+    }
+
+    .signUpContainer .backS3, .signUpContainer .backS4 {
+        background: #6e6e6e;
+    }
+
+    .signUpContainer .nextS3, .signUpContainer .nextS4 {
+        background: #39af28;
+    }
+}

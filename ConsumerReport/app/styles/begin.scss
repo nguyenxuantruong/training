@@ -1,0 +1,78 @@
+/* css for #begin */
+#begin {
+	background: white;
+	margin: 0;
+}
+
+#begin .spanish {
+	float: right;
+	color: #7dbad4;
+	font-size: 15px;
+	line-height: 34px;
+	display: inline;
+}
+
+#begin .spanish span {
+	position: relative;
+	top: 17px;
+	float: right;
+	right: 27px;
+}
+
+.spanish img {
+	margin-left: 33px;
+	margin-top: 3px;
+}
+
+.stateBar {
+	display: block;
+	clear: both;
+	margin-left: 250px;
+	font-size: 13px;
+}
+
+.stateBar li {
+	float: left;
+	list-style-type: none;
+	width: 165px;
+	margin-top: 35px;
+}
+
+.stateBar .circle {
+	border-radius:  20px;
+	width: 37px;
+	height: 37px;
+	border: none;
+	border-top: 2px solid #d6d8d2;
+	background: #f4f4f4;
+}
+.stateBar .circle:hover {
+	cursor: default;
+}
+
+.stateBar .line {
+	height: 5px;
+	background: #f4f4f4;
+	margin-top: -20px;
+	border-top: 1px solid #d6d8d2;
+}
+
+.stateBar .stateTitle {
+	margin-top: 15px;
+	margin-left: -20px;
+	font-weight: bold;
+}
+.stateBar li:last-child .stateTitle {
+	margin-top: 0;
+}
+
+#begin .info {
+	width: 650px;
+	clear: both;
+	display: block;
+	font-size: 30px;
+	color: #1d6581;
+	font-family: "Trebuchet MS";
+	line-height: 42px;
+	margin: 200px auto 82px 197px;
+}

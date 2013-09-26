@@ -1,0 +1,167 @@
+<html>
+          <head>
+                    <title>resizable</title>
+                    <style type="text/css">
+                              
+                    </style>
+          </head>
+          <body>
+                    <div id="container" class='truongnguyen-resizable'>
+                              <div class='truongnguyen-icon'></div>
+                              <img class="truongnguyen-resizeItem" src="imgs/flower-fix.png" > 
+                    </div>
+
+
+
+
+                    <script type="text/javascript" src="js/jquery.js"></script>
+                    <script type="text/javascript">
+                              (function($) {
+
+                                        // plugin resizable
+                                        $('.truongnguyen-resizable').each(function(ev) {
+                                                  // get element
+                                                  var oldClientX, oldClientY, oldHeight, oldWidth,
+                                                       current = $(this).find('.truongnguyen-resizeItem'),
+                                                       icon = $(this).find('.truongnguyen-icon');
+
+                                                  // set default css
+                                                  $(this).css({
+                                                            "display" : 'table-cell',
+                                                            "position" : 'relative'
+                                                  });
+                                                  icon.css({
+                                                            "display" : "none",
+                                                            "position" : "absolute",
+                                                            "right" : "0px",
+                                                            "bottom" : "0px",
+                                                            "background" : "url(imgs/icons.png) -80px -225px",
+                                                            "width" : "20px",
+                                                            "height" : "20px"
+                                                  });
+
+                                                  // display/hide icon                                            
+                                                  current.click(function(ev) {
+                                                            icon.css({
+                                                                      "display" : "block"
+                                                            });
+                                                            ev.stopPropagation();
+                                                  });
+                                                  document.body.onclick = function(ev) {
+                                                            if(ev.target !== current) {
+                                                                       icon.css("display", "none");
+                                                            }
+                                                  }    
+
+                                                  // change cursor while hover icon
+                                                  icon.hover(function() {
+                                                            $(this).css('cursor', 'se-resize');
+                                                  });
+
+                                                  // hande mousedown event 
+                                                  icon.mousedown(function(ev) {
+                                                            oldWidth = current.width();
+                                                            oldHeight = current.height();
+                                                            oldClientY = ev.clientY;
+                                                            oldClientX  = ev.clientX;
+
+                                                            document.documentElement.addEventListener('mousemove', handleMousemove, false);
+                                                            document.documentElement.addEventListener('mouseup', handleMouseup, false);
+                                                  });
+
+                                                  // handle mousemove
+                                                  function handleMousemove(ev) {
+                                                            current.css({
+                                                                      "width" : ev.clientX + oldClientX - oldWidth,
+                                                                      "height" : ev.clientY + oldClientY - oldHeight
+                                                            });
+                                                  }
+
+                                                  // handle mouseup
+                                                  function handleMouseup(ev) {
+                                                            document.documentElement.removeEventListener('mousemove', handleMousemove, false);
+                                                            document.documentElement.removeEventListener('mouseup', handleMouseup, false);
+                                                  }
+                                        });                                                 
+                                        
+
+                         })(jQuery);         // end plugin
+                    </script>
+                    <script type="text/javascript">
+                              $(document).ready(function() {
+
+                                   // $('#container').resizable();
+
+
+
+                                   // var El = document.getElementsByClassName('resizable');
+                                   // console.log(El);
+
+                                   // for(var i = 0; i < El.length; i ++) {
+                                   //      var parent = El[i], 
+
+                                   //      current = parent.getElementsByClassName('item')[0];
+
+                                   // }
+
+
+
+
+                                   // var current = document.getElementById('flower');
+
+                                   //      var iconEl = document.getElementById('icon');
+                                   //      // var current = iconEl.parentNode;
+
+                                   //      current.onclick = function(ev) {
+                                   //                iconEl.style.display = "block";
+                                   //      }
+
+                                   //      document.body.onclick = function(ev) {
+                                   //                if(ev.target !== current) {
+                                   //                           iconEl.style.display = "none";
+                                   //                }
+                                   //      }
+
+                                   //      $('#flower').focus(function() {
+
+                                   //      },
+                                   //      function() {
+                                   //           alert('ok');
+                                   //           iconEl.style.display = "none";
+                                   //      })
+
+
+                                   //      $('#icon').hover(function() {
+                                   //                $(this).css('cursor', 'se-resize');
+                                   //      });
+
+                                   //      var
+                                   //            oldClientX, oldClientY, oldHeight, oldWidth;
+
+
+                                   //      iconEl.onmousedown = function(ev) {
+                                   //                oldWidth = current.offsetWidth;
+                                   //                oldHeight = current.offsetHeight;
+                                   //                oldClientY = ev.clientY;
+                                   //                oldClientX  = ev.clientX;
+
+                                   //                document.documentElement.addEventListener('mousemove', handleMousemove, false);
+                                   //                document.documentElement.addEventListener('mouseup', handleMouseup, false);
+
+                                   //      }
+
+                                   //      function handleMousemove(ev) {
+                                   //           console.log(current);
+                                   //                current.style.width = ev.clientX + oldClientX - oldWidth;
+                                   //                current.style.height = ev.clientY + oldClientY - oldHeight;
+                                   //      }
+
+                                   //     function handleMouseup(ev) {
+                                   //                document.documentElement.removeEventListener('mousemove', handleMousemove, false);
+                                   //                document.documentElement.removeEventListener('mouseup', handleMouseup, false);
+                                   //      }
+                                        
+                              });
+                    </script>
+          </body>
+</html>

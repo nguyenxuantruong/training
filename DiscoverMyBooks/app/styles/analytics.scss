@@ -1,0 +1,54 @@
+
+.ActivityView {
+	color: #666666;
+	font-size: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.ActivityView h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+.ActivityView h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.ActivityView .select {
+	margin: 20px auto;
+}
+
+.snapshot {
+	margin-top: 20px;
+	background: #f3f6f8;
+}
+
+#snapshot .snapshot > div {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.snapshot .span3 .amount,
+.snapshot .span3 .catergory {
+	text-align: center;
+}
+
+.snapshot .amount {
+	color: #5485ab;
+	font-size: 24px;
+}
+
+.snapshot .catergory {
+	font-family: "Myriad Pro";
+	font-size: 10px;
+}
+
+#pageView,
+#social {
+	margin-top: 20px;
+}

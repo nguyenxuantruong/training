@@ -1,0 +1,495 @@
+.progress {
+      height: 13px;
+      margin-bottom: 0;
+      background: #00485c;
+      border-radius: 2px;
+}
+
+body {
+      background: url(../images/userpage-bg.png) no-repeat;
+      background-position: center;
+}
+
+.container {
+      font-family: "tunga";
+      height: 1200px;
+      font-size: 13px;
+      color: #00485b;
+}
+
+/* css for navbar */
+#nav {
+      height: 51px;
+      background: #878d8e;
+      font-weight: bold;
+      border: none;
+}
+
+hr {
+      margin: 10px 0 5px 0;
+      color: #5bb9ff;
+      opacity: 0.35;
+      border: 1px solid #5bb9ff;
+      width: 98%;
+      margin-left: 1%;
+}
+
+/* css for content */
+#content {
+      margin-left: 8px;
+      width: 945px;
+      margin-bottom: 280px;
+
+}
+
+#content .span7 > div {
+      width: 705px;
+      border-radius: 8px;
+      border: 2px solid #17bbff;
+}
+
+#game .goUserPage {
+      background: #939393;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      padding-top: 10px;
+}
+#game .goUserPage a {
+      color: #00485b;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-size: 13px;
+      margin-left: 11px;
+      font-weight: bold;
+}
+
+#game .levelGame {
+      background: rgba(205,205,205,0.85);
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+}
+
+#game .levelGame .logo {
+      width: 159px;
+      height: 88px;
+      margin-left: 20px;
+}
+
+#game .levelGame h1 {
+      font-size: 33px;
+      color: #e3effa;
+      font-family: "mariadpro";
+      margin-left: 20px;
+      margin-top: 20px;
+      font-weight: normal;
+}
+.level > div {
+      margin-left: 30px;
+}
+
+.level .progress {
+      margin-top: 5px;
+      width: 372px;
+}
+
+.level div:last-child {
+      margin: 20px 0 0 18px;
+}
+
+.level p {
+      margin-left: 30px;
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "tunga";
+}
+
+.level .cup {
+      float: left;
+}
+.cup li {
+      width: 26px;
+      height: 26px;
+      margin-right: 3px;
+}
+.cup li:first-child {
+      background: url(../images/cup.png);
+      margin-left: -10px
+      
+}
+.cup li:nth-child(2) {
+      background: url(../images/cup.png) 26px 0px;
+      
+}
+.cup li:nth-child(3) {
+      background: url(../images/cup.png) 57px 1px;
+      
+}
+button.buttonGame  {
+      border: 1px solid #1cb2d8;
+      border-radius: 5px;
+      background: -webkit-linear-gradient(top, #3194c1, #0b5973);
+      /* for firefox */
+      background: -moz-linear-gradient(top, #3194c1, #0b5973);
+      height: 25px;
+      padding: 0;
+      float: left;
+}
+
+button.buttonGame:hover {
+      cursor: default;
+}
+
+button.buttonGame:first-child {
+      margin-left: 15px;
+      margin-right: 10px;
+}
+
+pre {
+      background: transparent;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      font-family: "tunga";
+      padding: 0;
+}
+
+#inventory {
+      margin: 10px 0 0 0;
+      background: rgba(205,205,205, 0.85);
+      height: 167px;
+}
+
+#inventory h3 {
+      background: rgba(159,159,159,0.69);
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      font-size: 16px;
+      color: #e3effa;
+      margin: 0;
+      border-top-right-radius: 8px;
+      border-top-left-radius: 8px;
+      padding-left: 18px;
+}
+
+/* css for slider */
+.more-game-slider{
+      width: 678px;
+      margin-top: 45px;
+      margin-bottom: 220px;
+}
+
+#asnet-slider-container-small.cuz-asnet-slider-small li{
+      margin-left: 11px;
+      margin-right: 4px;
+}
+
+.move-left-button{
+      background: url(/images/userpage-pre.png) no-repeat 0 0;
+      float: left;
+      width: 40px;
+      height: 40px;
+      margin: 54px 0 0 16px;
+}
+
+.cuz-position-left {
+      margin: 0px 0 0 27px
+}
+
+.move-right-button{
+      background: url(/images/userpage-next.png) no-repeat 0 0;
+      float: right;
+      width: 40px;
+      height: 40px;
+      margin: 55px 10px 0 0;
+}
+.cuz-position-right {
+      margin: 0px -12px 0 0;  
+}
+
+#asnet-slider-container-small {
+      position: relative;
+      top: -34px;
+      left: 7px;
+}
+
+#asnet-slider-ul-small li {
+      position: relative;
+}
+#asnet-slider-ul-small li a{
+      background: white;
+      border-radius: 5px;
+      width: 102px;
+      height: 96px;
+      position: absolute;
+}
+#asnet-slider-ul-small li img{
+      background: white;
+      border-radius: 5px;
+      width: 102px;
+      height: 96px;
+      position: relative;
+}
+#asnet-slider-ul-small li p {
+      position: absolute;
+      top: 93px;
+      left: 23px;
+      font-size: 10px;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      color: #333333;
+}
+
+/* css for tabs */
+#achievements {
+      border: none !important;
+      position: relative;
+}
+.nav-tabs {
+      border: none;
+      margin: 0;
+      padding: 0;
+}
+
+.nav-tabs > li {
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+      border: 2px solid #17bbff;
+      border-radius: 8px;
+      border-left: none;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      margin-top: 10px;
+      margin-right: -2px;
+      background: -webkit-linear-gradient(left, #d8d8d8, #a1a1a1);
+      /* for firefox */
+      background: -moz-linear-gradient(left, #d8d8d8, #a1a1a1);
+      position: absolute;
+
+}
+
+.nav-tabs > li a {
+      color: white;
+      font-size: "mariadpro";
+      font-size: 14px;
+      font-weight: bold;
+      padding-bottom: 0;
+}
+.nav-tabs > li.active {
+      border-bottom: 4px solid #c8c6c6 !important;
+      background: #ababab;
+      border-bottom-right-radius: 0 !important;
+}
+
+.nav-tabs > li.active a {
+      border: none;
+      background: transparent;
+      color: white;
+      font-weight: bold;
+
+}
+
+.nav-tabs > li a:hover, .nav-tabs > li.active a:hover  {
+      background: transparent;
+      border: none;
+      color: white;
+}
+
+.nav-tabs > li:first-child {
+      border: 2px solid #17bbff;
+      border-radius: 8px;
+      border-bottom-left-radius: 0;
+      z-index: 3;
+      padding-left: 10px;
+}
+
+.nav-tabs > li:nth-child(2) {
+      left: 134px;
+      z-index: 2;
+      padding-left: 19px;
+      padding-right: 15px;
+
+}
+.nav-tabs > li:nth-child(3) {
+      left: 232px;
+      z-index: 1;
+      padding-left: 16px;
+      padding-right: 23px;
+}
+
+#myTabContent {
+      background: rgba(212,212,212,0.85);
+      top: 5px;
+      border-top-left-radius: 0 !important;
+      position: relative;
+      border: 2px solid #17bbff;
+      border-radius: 8px;
+}
+
+.badgest {
+      margin-left: 30px;
+      clear: both;
+      margin-top: 31px;
+}
+.badgest > div {
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 42px;
+}
+
+.badgest p {
+      font-weight: bold;
+      margin-top: -5px;
+}
+.badgest .progress {
+      width: 55px;
+      margin-top: -13px;
+      margin-left: 5px;
+      border-radius: 0;
+}
+
+#profile1 .badgest p {
+      margin-top: 0;
+}
+
+#descTab .description {
+      margin: 35px 40px 35px 20px;
+      color: #006883;
+      font-size: 16px;
+}
+#descTab .description h2{
+      color: #006985;
+      margin-bottom: 10px;
+}
+
+#descTab .description img{
+      float: left;
+      margin-right: 14px;
+      width: 170px;
+      height: 95px;
+}
+
+/*user infor*/
+#userInfor {
+      float: right;
+}
+
+#userInfor .userContainer {
+      margin-left: -5px;
+      padding: 2px;
+      border: 1px solid rgba(23,187,225, 0.33);
+      border-radius: 8px;
+      height: 120px;
+      width: 228px;
+      position: absolute;
+      z-index: -2;
+}
+
+#userInfor .inforUser {
+      font-size: 14px;
+      font-weight: bold;
+      color: #3f3f3f;
+      border: 1px solid #13edff;
+      border-radius: 5px;
+      background: -webkit-linear-gradient(top, #f0f0f0, #afafaf);
+/*       for firefox */
+      background: -moz-linear-gradient(top, #f0f0f0, #afafaf);
+      padding: 0px 19px 0px 20px;
+      margin-top: 1px;
+      position: absolute;
+      z-index: -2;
+      width: 184px;
+}
+#userInfor .inforUser > p {
+      margin: 0 0 3px;
+}
+
+#userInfor .inforUser > h2 {
+      margin: 0;
+      font-size: 23px;
+      line-height: 23px;
+      color: #e3effa;
+      margin-top: 2px;
+      font-weight: bold;
+}
+#userInfor .left {
+      float: left;
+}
+
+#userInfor .right {
+      float: right;
+}
+
+#userInfor .inforUser > p:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+}
+
+#userInfor .character {
+      position: absolute;
+      margin-left: -114px;
+      margin-top: 90px;
+      z-index: -1;
+      height: 700px;
+}
+
+/* css for footer */
+#footer {
+      background: #787f81;
+      height: 84px;
+}
+
+#footer .linkFooter .infor {
+      margin-top: 12px;
+      font-weight: normal;
+}
+#footer .linkFooter .infor p:last-child {
+      margin-top: -2px;
+}
+
+/* Targeting only Firefox with CSS */
+@-moz-document url-prefix() {
+      #footer .linkFooter ul li {
+            padding: 0 15px;
+      }
+}
+
+/* IE9, IE10 */
+@media screen and (min-width:0\0) {
+      #nav .siteAuction a {
+          margin-left: 25px;
+      }
+
+      #footer .linkFooter ul li {
+            padding: 0 15px;
+      }
+
+      #gameAchie h1 {
+            background: #c5c5c5;
+      }
+      
+      button.buttonGame {
+            background: #2d8eba;
+            margin-top: 5px;
+      }
+
+      #userInfor .inforUser {
+            background: #c5c5c5;
+      }
+      .nav-tabs > li {
+            background: #d9d9d9;
+      }
+
+      #nav .notification span {
+            padding-bottom: 4px;
+      }
+
+      #nav .notification {
+            margin-top: -3px;
+      }
+
+      #nav .caret {
+            margin-left: 5px;
+            margin-top: 7px;
+      }
+}

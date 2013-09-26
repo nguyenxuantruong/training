@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Gamesites - Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet/less" type="text/css" href="styles/main.less">
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/text-shadow.css">
+        <script src="scripts/vendor/modernizr.min.js"></script>
+        <script src="scripts/less-1.4.1.min.js"></script>
+    </head>
+    <body>
+        <div class="container" >
+            <div id="nav" class="row-fluid">
+                <div class="span5">
+                </div>
+                <div class="span7 navText">
+                    <div> 
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#"><b class="caret"></b></a>
+                            <ul id="menu1" style="display:none;" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="userpage.html">User Page</a></li>
+                              <li role="presentation"><a class='logout' role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                        <a class="avatar" href="userpage.html" ><img alt="avatar"></a>                        
+                    </div>
+                     <div>
+                        <p class="notification"><a href="#">Notification <span>2</span></a></p>
+                        <p class="siteAuction" style="display:inline-block;"><a href="#">Site Auction</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class='row-fluid'>
+                <div id="featureGame" class="span3">
+                    <div class="title"></div>
+                    <div id="listFG">
+                        
+                    </div>               
+                </div>
+
+                <!-- modal sign up-->
+                <div id="myModal" class="modal hide fade signUpContainer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+                    <!-- screen 1 in sign up -->
+                    <div class="temp screen1">
+                        <div class='row-fluid singUpHeader'>
+                            <h2 class='span6'>Sign Up </h2>
+                            <p class="span4">Aready have an account?</p>
+                            <a class='span2 loginHere' href="#"> Login Here</a>
+                        </div>
+                        <div class='signUp'>
+                            <p>Log in using your preferred social network.</p>
+                            <div class="social">
+                                <button></button>
+                                <button></button>
+                                <button></button>
+                            </div>
+                            <p> or </p>
+                            <label>Enter your email address</label>
+                            <input type="email" class='emailS1'><span class='error emailError'></span>
+                            <label class='birthday'>Your birthday</label>
+                            <select class="selectpicker first" value="1">
+                                  <option>Day</option>
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                  <option>5</option>
+                                  <option>6</option>
+                                  <option>7</option>
+                                  <option>8</option>
+                                  <option>9</option>
+                                  <option>10</option>
+                                  <option>11</option>
+                                  <option>12</option>
+                                  <option>13</option>
+                                  <option>14</option>
+                                  <option>15</option>
+                                  <option>16</option>
+                                  <option>17</option>
+                                  <option>18</option>
+                                  <option>19</option>
+                                  <option>20</option>
+                                  <option>21</option>
+                                  <option>22</option>
+                                  <option>23</option>
+                                  <option>24</option>
+                                  <option>25</option>
+                                  <option>26</option>
+                                  <option>27</option>
+                                  <option>28</option>
+                                  <option>29</option>
+                                  <option>30</option>
+                                  <option>31</option>
+                            </select>
+                            <select class="selectpicker last">
+                                  <option>Month</option>
+                                  <option>Jan</option>
+                                  <option>Feb</option>
+                                  <option>Mar</option>
+                                  <option>Apr</option>
+                                  <option>May</option>
+                                  <option>Jun</option>
+                                  <option>Jul</option>
+                                  <option>Aug</option>
+                                  <option>Sep</option>
+                                  <option>Nov</option>
+                                  <option>Oct</option>
+                                  <option>Dec</option>
+                            </select>
+                            <span class="error birthdayError"></span>
+                            <div style="clear:both;margin-bottom:10px;"></div>
+                            <a href="#" class='why'>Why is my birth date required? </a><br>
+                            <button class='submit'>Sign Up</button>
+                            <p style="letter-spacing: -1px;">By clicking  ‘sign up‘‘ you are accepting our terms of services and privacy policy.</p>
+                        </div>
+                    </div>
+                     <!-- end screen1 -->
+                      <!-- screen 2 -->
+                     <div class="temp screen2" style='display:none;'>
+                        <div class='row-fluid singUpHeaderS2'>
+                            <h2 class='span6'>FS Online </h2>
+                        </div>
+                        <div class='signUp'>
+                            <h4 class="email">Email: truong@gmail.com</h4>
+                            <label class='s2 first'>Pick a username</label>
+                            <input class='s2 usernameS2' type='text'/><span class="error usernameError"></span>
+                            <label class='s2 second' >Create a password</label>
+                            <input class='s2 passS2' type='password'/><span class="error passError"></span>
+                            <label class='s2 third' >Confirm your password</label>
+                            <input class='s2 confirmS2' type='password'/><span class="error confirmError" style="visibility:hidden;">Password doesn't match</span>
+                            <button class='submitS2 submit'>Next</button>
+                            <div style='clear:both;'></div>
+                        </div>
+                    </div>
+                    <!-- end screen 2 -->
+                     <!-- screen 3 -->
+                  <div class="temp screen3" style='display:none;'>
+                    <div class='row-fluid singUpHeaderS2'>
+                        <h2 class='span6'>FS Online </h2>
+                    </div>
+                    <div class='signUp row-fluid'>
+                       <button class="girl span6" tabindex="2">
+                            <img src="images/girl.png" alt="girl">
+                       </button>
+                       <button class="boy span6" tabindex="3">
+                            <img src="images/boy.png" alt="boy">
+                            <div style="clear:both;"></div>
+                       </button>
+                       <div class="row-fluid">
+                            <button class="backS3 span6 btnS3" tabindex="1">Back</button>
+                            <button class="nextS3 span6 btnS3" tabindex="4">Next</button>
+                            <div style="clear:both;"></div>
+                      </div>
+                    </div>
+                </div>
+                <!-- end screen 3 -->
+                <!-- screen 4 -->
+                <div class="temp screen4" style='display:none;'>
+                    <div class='row-fluid singUpHeaderS2'>
+                        <h2 class='span6'>FS Online </h2>
+                    </div>
+                    <div class='signUp row-fluid'>
+                       <div class="span4">
+                       </div>
+                       <div class="span4 ">
+                            <h4 class='usernameS4'>Boy</h4>
+                            <img class='genderS4' src="images/boy.png" alt='boy'>
+                       </div>
+                       <div class="span4">
+                       </div>
+                       <div class="row-fluid">
+                            <button class="span6 btnS3 backS4">Back</button>
+                            <button class="span6 btnS3 nextS4">Finish</button>
+                            <div style="clear:both;"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end screen 4 -->
+                </div>               
+
+                <!-- <div class="span4"></div> -->
+                <div id="signUp" class="span9">
+                    <p class="bigText"></p>
+                    <span class="placeholder">Email Address</span>
+                    <input class="email" type="text">
+                    <button class="commit" data-toggle="modal" href="#myModal"></button><br>
+                    <p class="emailError error"></p>
+                    <img class="avatarDefault" alt="avatar default">
+                </div>
+                <!-- end sign up -->
+            </div>
+            <!-- end featured game -->
+            <div id="moreGame" class='row-fluid'>
+                <div>
+                    <img class="moreImg" src="images/moregame.png" alt="moregame">
+                    <p class='title'></p>
+                </div>
+                <div id="listMoreGame">
+                    <ul class="ulListGame">
+                        
+                    </ul>                    
+                </div>
+            </div>
+            <!-- end more game -->
+            <div id="footer" class="row-fluid">
+                <div id='funLeft' class="span2">
+                    <img src="images/smile2.png" alt="smile">
+                    <img src="images/funsocket1.png" alt="func socket">
+                </div>
+                <div class="linkFooter span7">
+                    <ul>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Career Opportunities</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Legal Documention</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Sitemap</a>
+                        </li>
+                    </ul><br>
+                    <div class="infor">
+                        <p>All Trademarks referenced herein are the properties of their respective owners.</p>
+                        <p>@ 2012 FunSockets and The Gamesite. All rights reserved.
+                    </div>
+                </div>
+                <div id='funRight' class="span2">
+                    <img src="images/smile1.png" alt="smile"><br>
+                    <img src="images/funsocket1.png" alt="func socket">
+                </div>
+            </div>
+            <!-- end footer -->
+        </div>
+        <!-- end container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    
+    <!-- build:js scripts/plugins.js -->
+    <script src="scripts/vendor/bootstrap/bootstrap-affix.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-alert.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-modal.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-transition.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-button.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-popover.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-typeahead.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-carousel.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-collapse.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-tab.js"></script>
+    <script src="scripts/general.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/signup.js"></script>
+    <script src="scripts/bootstrap-select.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

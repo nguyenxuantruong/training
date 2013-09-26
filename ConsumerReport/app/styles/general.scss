@@ -1,0 +1,120 @@
+body {
+	font-family: "Myriad Pro";
+	background: #bfbfbf;
+}
+
+#circle {
+	overflow: hidden;
+}
+
+.halfCircle { 
+    width: 220px; 
+    height: 110px; 
+    background: white; 
+    -moz-border-radius: 100px / 50px; 
+    -webkit-border-radius: 100px / 50px; 
+    border-radius: 100px / 50px;
+    margin-left: 288px;
+    margin-top: -72px;
+	box-shadow: 0px 3px 10px 0px rgba(184, 193, 195, .42);
+}
+
+.chevron {
+  	position: relative;
+  	text-align: center;
+	margin-bottom: 1px;
+  	height: 6px;
+  	width: 20px;
+  	margin-left: 389px;
+	top: -30px;
+}
+
+.chevron:before {
+	content: '';
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	height: 100%;
+  	width: 51%;
+  	background: #2fb4ef;
+  	-webkit-transform: skew(0deg, -30deg);
+  	-moz-transform: skew(0deg, -30deg);
+  	-ms-transform: skew(0deg, -30deg);
+  	-o-transform: skew(0deg, -30deg);
+  	transform: skew(0deg, -30deg);
+}
+.chevron:after {
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 50%;
+  	background: #2fb4ef;
+  	-webkit-transform: skew(0deg, 30deg);
+  	-moz-transform: skew(0deg, 30deg);
+  	-ms-transform: skew(0deg, 30deg);
+  	-o-transform: skew(0deg, 30deg);
+  	transform: skew(0deg, 30deg);
+}​
+
+.chevron2:after {
+	-webkit-transform: skew(0deg, 150deg);
+}
+.chevron2:before {
+	-webkit-transform: skew(0deg, 30deg);
+}
+
+.noDisplay {
+	display: none;
+}
+
+ .next {
+	overflow: hidden;
+}
+
+ .next button {
+	width: 220px;
+	height: 220px;
+	display: block;
+	border-radius: 200px;
+	margin-top: -146px;
+	background: #1d6581;
+	border: none;
+	margin-left: 287px;
+}
+
+ .next p {
+	margin-top: 155px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+
+.myCaret {
+	display: inline-block;
+	width: 0px;
+	height: 10px;
+	vertical-align: top;
+	border-top: 15px solid #ffffff;
+	border-right: 16px solid transparent;
+	border-left: 16px solid transparent;
+	content: "";
+	margin-top: -7px;
+}
+
+.arrow {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	display: inline-block;
+	position: absolute;
+}
+
+
+.container {
+	width: 1024px;
+	background: #ededdf;
+	position: relative;
+}

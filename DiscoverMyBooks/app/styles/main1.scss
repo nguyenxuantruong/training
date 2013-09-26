@@ -1,0 +1,142 @@
+@import "booksManager2";
+@import "booksManager";
+
+#content {
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family: "Myriad Pro";
+	margin-top: 20px;
+}
+
+#author {
+	width: 630px;
+}
+
+#content h3 {
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin-bottom: 0;
+}
+
+#content .addAuthor {
+	float: right;
+	margin-bottom: 15px;
+}
+
+#content .authors {
+	clear: both;
+}
+
+
+.authors li {
+	margin-bottom: 20px;
+	padding: 0 5px;
+}
+.authors li img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.nameAuthor {
+	
+	color: #2b7cbf;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.authorInfor {
+	font-size: 11px;
+	color: #666666;
+}
+
+.like {
+	padding-left: 12px;
+	background: url(../images/authorInfor.png) -4px -3px no-repeat;
+}
+
+.book {
+	padding-left: 12px;
+	background: url(../images/authorInfor.png) -4px -19px no-repeat;
+}
+.read {
+	padding-left: 12px;
+	background: url(../images/authorInfor.png) -4px -36px no-repeat;
+}
+
+.readCount,
+.bookCount,
+.likeCount {
+	font-weight: bold;
+}
+
+#action {
+	width: 275px;
+	margin-left: 35px;
+}
+
+.faceAction, .activity {
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border: 1px solid #cdcdcd;
+	margin-bottom: 20px;
+	max-height: 400px;
+	overflow: scroll;
+}
+
+.faceAction li:not(.header) {
+	padding: 10px 5px;
+	clear: both;
+	border-top: 1px solid #cdcdcd;
+}
+
+#action h3 {
+	float: none;
+	text-align: center;
+	background: -webkit-linear-gradient(top, #f8f8f8, #f3f3f3);
+	padding: 10px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border: 1px solid #cdcdcd;
+	border-bottom: none;
+}
+
+#action .avatarFace {
+	float: left;
+	margin-right: 5px;
+}
+
+small {
+	color: #999999;
+	font-size: 11px;
+}
+
+.activity li:not(.header) {
+	padding: 10px 5px 10px 40px;
+	border-top: 1px solid #cdcdcd;
+}
+
+.activity .face {
+	background: url(../images/activity.png) 0px 10px no-repeat;
+}
+
+.activity .edit {
+	background: url(../images/activity.png) 0px -57px no-repeat;
+}
+
+.activity .upload {
+	background: url(../images/activity.png) 0px -125px no-repeat;
+}
+

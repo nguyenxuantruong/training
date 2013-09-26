@@ -1,0 +1,75 @@
+.loginSignUp {
+	font-size: 13px;
+	margin-top: 22px;
+}
+
+.loginSignUp .login{
+	padding-right: 12px;
+	margin-left: 17px
+}
+
+#signUp {
+	width: 580px;
+	display: block;
+	margin: 45px auto auto auto;
+}
+
+form {
+	background: #f4f4f4;
+	margin-top: 25px;
+	font-size: 13px;
+}
+
+label {
+	text-align: right;
+	padding-right:10px;
+	margin-right: 15px;
+	font-weight: bold;
+}
+
+
+h3 {
+	font-weight: bold;
+	font-size: 28px;
+	font-family: "Corbel";
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+#signUp .login {
+	margin-left: 10px;
+	font-family: "Corbel";
+}
+
+form .type {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+form input[type='text'],
+form input[type='password'] {
+	width: 310px;
+	height: 18px;
+	margin-top: -4px;
+	margin-bottom: 14px;
+}
+
+form input[type="radio"] {
+	margin: -2px 3px auto 25px;
+}
+
+.type input[value="author"] {
+	margin-left: 0;
+}
+
+input[type='checkbox'] {
+	margin-left: 25px;
+	margin-top: -2px;
+}
+
+#submit {
+	margin-left: 185px;
+	height: 37px;
+	width: 150px;
+	margin-bottom: 25px;
+}

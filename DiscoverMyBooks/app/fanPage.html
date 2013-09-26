@@ -1,0 +1,117 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/fanPage.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <div class="container">
+            <div id="head" class="row-fluid">
+                <div class="logo span3">
+                    <img src="images/logo.png">
+                </div>
+                <div class="username span2 offset7">
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#">Jonh Doe <b class="caret"></b></a>
+                        <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="setting.html">Setting</a></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Help</a></li>
+                          <li role="presentation" class="divider"></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="signUp.html">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar" id="navbar">
+                <div class="navbar-inner row-fluid" id="navbar-inner">
+                    <!-- <ul class="nav span7 offset3">
+                        <li ><a href="index.html">Dashboard</a></li>
+                        <li class="active"><a href="#">Book Manager</a></li>
+                        <li ><a href="#"><img src="images/face.png"><span style="position:relative;top:-3px;left:5px;">App Editor</span></a></li>
+                        <li><a href="#">Analytics</a></li>
+                    </ul> -->
+                </div>
+            </div>
+            <!-- end navbar -->
+             <div id="content" class='row-fluid'>
+                <h2>One more step left</h2>
+                <div class="fanPage span6 offset3">
+                    <h5>Hi John Doe</h5>
+                    <p>Let's start by importing your Facebook Fan Pages into DiscoverMyBooks so we can help you create an awesome experience for you readers</p><br>
+                    <p>Note that you must an adminstrator of a Facebook Fan Page <a href="#">How to find out if you're an adminstrator?</a></p>
+                    <button class="addFFP" href="#myModal" role="button"data-toggle="modal">Add Facebook Fan Page</button>
+                </div>
+
+                <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <!-- <h3 id="myModalLabel">Modal header</h3> -->
+                  </div>
+                    <div class="modal-body">
+                        <h4>John, we've found the following Facebook Fan Pages. Tell which ones you want to manage with DiscoverMyBooks</h4>
+                        <ul class="fans">
+                            <li>
+                                <a href="#">
+                                    <img src="images/fan1.png">
+                                    <span>Truong Nguyen</span>
+                                </a>
+                                <button></button>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/fan2.png">
+                                    <span>Truong Nguyen</span>
+                                </a>
+                                <button></button>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/fan1.png">
+                                    <span>Truong Nguyen</span>
+                                </a>
+                                <button></button>
+                            </li>
+                        </ul>
+                    </div>
+                  <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Done</button>
+                    <!-- <button class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+             </div>
+            <!-- end content -->
+        </div>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Gamesites - User page details</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/userpage-details.css">
+        <link rel="stylesheet" href="styles/colorbox.css">
+        <link rel="stylesheet" href="styles/text-shadow.css">
+        <script src="scripts/vendor/modernizr.min.js"></script>
+    </head>
+    <body>
+        <div class="container" >
+            <div id="nav" class="row-fluid">
+                <div class="span5">
+                </div>
+                <div class="span7 navText">
+                    <div> 
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" id="drop4" role="button" data-toggle="dropdown" href="#"><b class="caret"></b></a>
+                            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                              <li role="presentation"><a role="menuitem" tabindex="-1" href="userpage.html">User Page</a></li>
+                              <li role="presentation"><a class='logout' class='logout' role="menuitem" tabindex="-1" href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                        <a class="avatar" href="userpage.html" ><img alt="avatar"></a>                        
+                    </div>
+                     <div>
+                        <p class="notification"><a href="#">Notification <span>2</span></a></p>
+                    <p class="siteAuction" style="display:inline-block;"><a href="#">Site Auction</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- end nav bar -->
+
+            <div id="content" class='row-fluid'>
+                <div class="span7">
+                    <div id="game" class="row-fluid">
+                        <div class="goUserPage">
+                            <a  href="userpage.html"><img src="images/icon-back.png" alt="icon back">   Back to Games & Achievements</a>
+                        </div>
+                        <div class="row-fluid levelGame">
+                            <h1 class="row">Citadels</h1>
+                            <div class="row-fluid">
+                                <div class="span3" style="padding-bottom: 30px;">                                
+                                <img class="logo"  alt="">
+                            </div>
+                            <div class="span9 level"> 
+                                <div class="progress">
+                                    <div class="bar" style="margin:0;"></div>
+                                </div>
+                                <p><span class="currentPoint">100</span> / <span class="pointAccomplish">200</span> more for level <span>5</span></p>
+                                <div>
+                                    <button class="buttonGame"><pre></pre></button>
+                                    <button class="buttonGame"><pre></pre></button>
+                                    <ul class="cup">
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="inventory" class="row">
+                        <h3>Inventory</h3>
+                        <article class="more-game-slider">
+                            <a class= "move-left-button cuz-position-left" href='javascript:slide("#asnet-slider-ul-small","left",5,100);'></a>
+                            <a class= "move-right-button cuz-position-right" href='javascript:slide("#asnet-slider-ul-small","right",5,100);'></a>
+                            <div id="asnet-slider-container-small" class="cuz-asnet-slider-small">
+                                <ul id="asnet-slider-ul-small">
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div id="achievements">
+                      <ul id="myTab" class="nav nav-tabs">
+                        <li class=""><a href="#home" data-toggle="tab">Achievements</a></li>
+                        <li class="active"><a href="#badgesTab" data-toggle="tab">Badges</a></li>
+                        <li class=""><a href="#descTab" data-toggle="tab">Rules</a></li>
+                      </ul>
+                      <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade" id="home">
+                             <div class="badgest">
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div class="tab-pane fade active in" id="badgesTab">
+                            <div class="badgest">
+                                <div>
+                                    <img src="images/cup-yellow.png" alt="cup yellow">
+                                    <p>The Beginner</p>
+                                </div>
+                                <div>
+                                    <img src="images/cup-blue.png" alt="cup blue">
+                                    <p>The Beginner</p>
+                                </div>
+                                <div>
+                                    <img src="images/cup-red.png" alt="cup red">
+                                    <p>The Beginner</p>
+                                </div>
+                            </div>
+                            <div style="clear: both;"></div>
+                        </div>
+                        <div class="tab-pane fade" id="descTab">
+                             <div class="description">
+                                <img>
+                                <p>
+                                    </p><h3>Description</h3>
+                                    <span></span>
+                                <p></p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div id="userInfor" class="span3">
+                    <div class="userContainer">
+                        <div class="inforUser">
+                            <h2>Truong</h2>
+                            <p>
+                                <span class="left">Date joined</span>
+                                <span class="right"></span>
+                            </p>
+                            <p>
+                                <span class="left">Games Played</span>
+                                <span class="right"></span>
+                            </p>
+                            <p>
+                                <span class="left">Austion Items</span>
+                                <span class="right"></span>
+                            </p>
+                            <p>
+                                <span class="left">FunSockets Dollars</span>
+                                <span class="right"></span>
+                            </p>
+                        </div>
+                    </div>
+                    <img class="character" alt="character">
+                </div>
+                <!-- end user infor -->
+            </div>
+            <!-- end content -->
+            
+            <hr style="color:#aeb2b5;border: 1px solid #aeb2b5;">
+            
+            <div id="footer" class="row-fluid">
+                <div id='funLeft' class="span2">
+                    <a href="index.html">
+                        <img src="images/smile2.png" alt="smile">
+                        <img src="images/funsocket1.png" alt="func socket">
+                    </a>
+                    <img src="images/userpage-footer.png" alt="user page footer">
+                </div>
+                <div class="linkFooter span7">
+                    <ul>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Career Opportunities</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Legal Documention</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Sitemap</a>
+                        </li>
+                    </ul><br>
+                    <div class="infor">
+                        <p>All Trademarks referenced herein are the properties of their respective owners.</p>
+                        <p>@ 2012 FunSockets and The Gamesite. All rights reserved.
+                    </div>
+                </div>
+                <div id='funRight' class="span2">
+                    <a href="index.html">
+                        <img src="images/smile1.png" alt="smile"><br>
+                        <img src="images/funsocket1.png" alt="func socket">
+                    </a>    
+                </div>
+            </div>
+            <!-- end footer -->
+        </div>
+        <!-- end container -->
+        
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    
+    <!-- build:js scripts/plugins.js -->
+    <script src="scripts/vendor/bootstrap/bootstrap-affix.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-alert.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-tooltip.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-modal.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-transition.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-button.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-popover.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-typeahead.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-carousel.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-scrollspy.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-collapse.js"></script>
+    <script src="scripts/vendor/bootstrap/bootstrap-tab.js"></script>
+    <script src="scripts/jquery.asnet-image-slider-user.js"></script>
+    <script src="scripts/userpage-details.js"></script>
+    <script src="scripts/general.js"></script>
+    <script src="scripts/jquery.colorbox.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

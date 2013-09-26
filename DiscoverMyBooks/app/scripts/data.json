@@ -1,0 +1,21 @@
+{
+	"authors": [
+		{
+			"id" : 1,
+			"name": "Steve Jobs",
+			"books": 4,
+			"reads": 50,
+			"likes": 500,
+			"photo" : "images/author1.jpg"
+		},
+		{
+			"id": 2,
+			"name": "Bill Gates",
+			"books": 5,
+			"reads": 60,
+			"likes": 600,
+			"photo" : "images/author2.jpg"
+
+		}
+	] 
+}
